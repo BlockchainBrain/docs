@@ -2,11 +2,11 @@
    :description: Introduction to the Rupaya cryptocurrency and links to further reading
    :keywords: rupaya, rupx, masternodes, hosted, hosting, linux, setup, payment
 
-.. _masternodes_usingssh:
+.. _vps_usingssh:
 
 
 ============================================================
-Masternodes: Getting Started with an SSH Client and SSH Keys
+VPS: Getting Started with an SSH Client and SSH Keys
 ============================================================
 
 .. toctree::

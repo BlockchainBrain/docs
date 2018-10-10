@@ -5,9 +5,9 @@
 .. _masternodes_templates:
 
 
-======================
-Masternodes: Templates
-======================
+=====================
+Config File Templates
+=====================
 
 .. toctree::
    :maxdepth: 1

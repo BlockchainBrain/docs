@@ -5,9 +5,9 @@
 .. _masternodes_advanced:
 
 
-===========================
-Masternodes: Advanced Setup
-===========================
+==============
+Advanced Setup
+==============
 
 .. toctree::
    :maxdepth: 1

@@ -71,10 +71,7 @@ interest.
    :caption: Network
 
    coinswap/index
-   masternodes_usingssh/index
-   masternodes_basic/index
-   masternodes_finishingtouches/index
-   masternodes_advanced/index
-   masternodes_templates/index
+   vps_usingssh/index
+   masternodes/index
 
    marketing/index.rst

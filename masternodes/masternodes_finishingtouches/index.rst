@@ -5,9 +5,9 @@
 .. _masternodes_finishingtouches:
 
 
-==============================
-Masternodes: Finishing Touches
-==============================
+=================
+Finishing Touches
+=================
 
 .. toctree::
    :maxdepth: 1

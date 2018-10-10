@@ -4,11 +4,14 @@
 Setup Overview
 ==============
 
-This guide will walk you through the steps required to setup a Rupaya MasterNode on a Linux server and to setup a Cold Wallet on a Windows or Mac computer.  
+This guide will walk you through the steps required to setup a Rupaya MasterNode on a Linux server and to setup a Cold wallet on a Windows or Mac computer.  
 	
-This guide assumes that you have a basic understanding of how to navigate the Linux OS for the setup of the MasterNode, and that you have an understanding of either a Windows or Mac OS for the setup of the Cold Wallet. 
+This guide assumes that you have a basic understanding of how to navigate the Linux OS for the setup of the MasterNode, and that you have an understanding of either a Windows or Mac OS for the setup of the Cold wallet. 
 
 .. warning:: It's very common in this industry for scammers to offer "help" via remote screen sharing (TeamViewer, Skype, Zoom, WebEx, etc).  They will use nicknames like `MasterNode Helper`, `MasterNode Support`, `Cryptopia Support` and will be very nice and helpful to you. At least until they manage to run a command like `dumpprivkey`, `sendtoaddress` and your funds will be gone, adios, sayonara.  Please be aware and stay safe!	
+
+Common Terminology
+------------------
 
 **Hot Wallet**
 
@@ -28,6 +31,33 @@ This guide assumes that you have a basic understanding of how to navigate the Li
 	* The Cold wallet is normally run at home, behind a firewall, on a Windows, OSX or Linux computer.  
 	* After the MasterNode is enabled, the Cold wallet can even be run without direct connectivity from the internet, making it a more secure wallet. 
 	* Once the MasterNode is enabled and verified as working, the Cold wallet can then be closed and the MasterNode rewards will still show up the next time the wallet is started and synchronized.
+
+**MasterNode Address**
+
+	This is the public wallet address that is created in the Cold Wallet.  It is the address you will use to hold the callateral coins, when you create the MasterNode. It will also be the address that receives newly minted coins.
+	
+**Virtual Private Server (VPS)**
+
+	In this guide, the VPS is referring to the Linux server that will be running the MasterNode Hot wallet.
+	
+**Block Count**
+
+	The current Rupaya Block Count can be verified by browsing to the Rupaya Blockchain Explorer and looking for the number in the **Current Block** box in the top left of the website.
+	
+* http://find.rupx.io
+* https://hereismy.rupx.io
+
+**Rupaya Wallet Debug Console**
+
+	In the Rupaya Cold wallet, click on **Tools** and select **Debug Console**.  
+	The Debug Console will allow you to run commands to verify the following:
+	
+* Current wallet version and how many active connections are established - **getinfo**
+* MasterNode status - **masternode status**
+* Remotely start your MasterNode - **startmasternode alias false MN1**
+* Check the current Block Count - **getblockcount**
+* Check the current Block Hash.  - **getblockhash <blockcount>**
+* Export your wallet Private Key - **dumpprivkey <walletaddress>**
 
 .. _dont_do_this_at_home:
 

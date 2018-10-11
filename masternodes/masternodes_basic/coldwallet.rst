@@ -13,41 +13,6 @@ Requirements:
 	* Windows 7 or higher, Mac OS, or Linux
 	* Outgoing internet access to sync the blockchain and enable the MasterNode remotely
 
-Implementation Steps
---------------------
-
-**Install the Rupaya Cold Wallet**
-
-1. :ref:`Download the appropriate wallet version for your system<installwalletbasic_coldwallet>` - (Wallet_Download_)
-2. :ref:`Ensure your existing wallet.dat and private keys are backed up<backupwalletandkeys_coldwallet>`
-3. :ref:`Rename the old Rupaya directory if necessary<renameolddirectory_coldwallet>`
-4. :ref:`Unzip the wallet and move the Rupaya-cli and Rupaya-qt files onto the desktop<unzipwallet_coldwallet>`
-5. :ref:`Double click the Rupaya-qt file to install the new wallet<installwallet_coldwallet>`
-
-**Create a MN1 Wallet Address and Send it the 20000 Collateral Coins**
-
-1. :ref:`Create a receiving address named MN1<createmnaddressbasic_coldwallet>`
-2. :ref:`Send EXACTLY 20000 RUPX coins to the MN1 address<sendburncoinsbasic_coldwallet>`
-
-**Output your MN TXhash and Outputidx and update the MasterNode configuration file**
-
-1. :ref:`Open the Debug console<opendebugconsolebasic_coldwallet>`
-2. :ref:`Run the Masternode outputs command to retrieve the transaction ID of the collateral transfer<outputtxhashbasic_coldwallet>`
-3. :ref:`Copy and save the txhash and outputidx<copysavetxhashbasic_coldwallet>`
-4. :ref:`Go to Tools -> Open Masternode Configuration File and add a line in the newly opened masternode.conf file<masternodeconfbasic_coldwallet>`
-5. :ref:`Restart the Cold wallet to pick up the masternode.conf changes<restartcoldwalletbasic_coldwallet>`
-
-**Verify the Masternode.conf File is Configured Correctly**
-
-1. :ref:`Open the Debug console and verify the output from the masternode list-conf command is accurate<listconfbasic_coldwallet>`
-2. :ref:`Go to the Masternodes tab and verify that the newly added MasterNode is listed<masternodetabbasic_coldwallet>`
-
-**Start the MasterNode from the Cold Wallet**
-
-1. :ref:`Run the startmasternode alias false MN1 command, in the Cold wallet Debug console, in order to enable the MasterNode<startmasternodebasic_coldwallet>`
-
-.. _installwalletbasic_coldwallet:
-
 Install the Rupaya Cold Wallet
 ------------------------------
 

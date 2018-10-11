@@ -29,4 +29,4 @@ Verify the MasterNode Hot Wallet Started Successfully
 * You will need to search by your **MN1** wallet address or your Linux VPS IP address to locate it on the website.  
 * The site is refreshed every 5 minutes so don't be surprised if it takes up to 5 minutes to show up on the website.
 
-**Congratulations! The initial setup process is complete and your MasterNode is fully operational! You can proceed to the** :ref:`Finishing Touches<masternodes_finishingtouches>` **section to enable logrotate and Hot wallet auto start.**
+**Congratulations! The initial setup process is complete and your MasterNode is fully operational! You can proceed to the** :ref:`Finishing Touches section<masternodes_finishingtouches>`.

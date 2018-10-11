@@ -8,19 +8,6 @@ These instructions are intended for Mac users that want to generate an SSH key a
 
 * If you have already generated an SSH key and are already using it to connect to the Linux VPS then proceed to the section to :ref:`disable password logins and root login access<disablepasswordlogins>`.
 
-**Implementation Steps**
-
-1. :ref:`Open the application named Terminal<openterminal_macgeneratesshkey>`
-2. :ref:`Generate an ssh key on the Mac with the command: ssh-keygen<mackeygen_macgeneratesshkey>`
-3. :ref:`Login to your Linux VPS via SSH<sshintovps_macgeneratesshkey>`
-4. :ref:`Generate an SSH key on the Linux VPS with the command: ssh-keygen<linuxkeygen_macgeneratesshkey>`
-
-**Using the SSH Key to Connect to the Linux VPS**
-
-1. :ref:`Open a second Terminal window on your Mac and do not close the existing Terminal connection<open2ndterminal_macgeneratesshkey>`
-2. :ref:`Copy the SSH key from your Mac to your Linux VPS<copykeytoidrsa_macgeneratesshkey>`
-3. :ref:`Login to the Linux VPS using the new SSH key<loginwithkeymac_macgeneratesshkey>`
-
 .. _openterminal_macgeneratesshkey:
 
 Generating an SSH Key

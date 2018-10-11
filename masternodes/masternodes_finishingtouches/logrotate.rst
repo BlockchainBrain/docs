@@ -1,4 +1,4 @@
-.. _logrotate:
+.. _logrotate_mn:
 
 =====================
 Configuring Logrotate

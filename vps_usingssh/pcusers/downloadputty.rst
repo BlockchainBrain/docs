@@ -1,34 +1,15 @@
 .. _downloadputty:
 
-===========================================
-PC Users - Download Putty and Configure SSH
-===========================================
+================================
+Download Putty and Configure SSH
+================================
 
 These instructions are intended for PC users that will be using Putty and SSH keys to login to the Linux VPS.  If you already have Putty installed and are able to connect to the Linux VPS using an SSH key then you can skip this process and proceed to the next section to :ref:`disable password logins and root login access<disablepasswordlogins>`.
 
-**Download and Configure Putty**
-
-1. :ref:`Download the Putty terminal emulator<downloadputty_downloadputty>`
-2. :ref:`Move the Putty application to your Desktop<moveputty_downloadputty>`
-3. :ref:`Open Putty and create a saved session for your Linux VPS<createputtysession_downloadputty>`
-
-**Configure Putty to use an SSH Key**
-
-1. :ref:`Import the SSH Private Key into the saved session for the Linux VPS<puttyimportprivkey_downloadputty>`
-2. :ref:`In the Putty window, click Open to connect to your Linux VPS<connectwithputty_downloadputty>`
-3. :ref:`Login to the Linux VPS as the root user<loginasroot_downloadputty>`
-
-**Configure the Linux VPS to use an SSH Key**
-
-1. :ref:`Change directory into the /root/.ssh directory or create it if necessary<changetosshdir_downloadputty>`
-2. :ref:`Create and edit the file named authorized_keys<editauthorizedkeys_downloadputty>`
-3. :ref:`Paste the SSH Key into the authorized_keys file on the Linux VPS<pastesshkey_downloadputty>`
-4. :ref:`Verify you can now login to the Linux VPS without entering a password<loginwithoutpass_downloadputty>`
-
 .. _downloadputty_downloadputty:
 
-Downloading and Configuring Putty
----------------------------------
+Download and Configure Putty
+----------------------------
 
 1. Download the Putty terminal emulator that matches your OS.
 

@@ -52,9 +52,9 @@ Order and setup a Linux VPS
 	
 .. _identifyvps_vpsandhotwallet:
 
-1. Identify a VPS provider and order a Linux Ubuntu 16.04 server.  Order the VPS server from a provider like DigitalOcean, Vultr, Linode, Amazon AWS, etc.  It's important not to run the VPS at home because of the risk of network instability that could cause loss of connectivity to the server.
+1. Identify a VPS provider and order a Linux Ubuntu 16.04 server.  It's important not to run the VPS at home because of the risk of network instability that could cause loss of connectivity to the server.  A VPS that meets the following requirements should cost around $5 per month
 
-	**VPS Requirements**
+	**VPS Requirements:**
 	
 	* Linux 64 bit, (e.g. Ubuntu 16.04)
 	* Dedicated Public IP Address
@@ -62,7 +62,12 @@ Order and setup a Linux VPS
 	* Basic Linux skills
 	
 	|br|	
-	You can get servers like this for $5 a month and can run 3 to 4 MasterNode wallets, from different coins, if the monthly cost is a concern.
+	**Recommended VPS Providers:**
+	
+	* `Digital Ocean <https://m.do.co/c/95a89fb0b62d>`_
+	* `Vultr <https://www.vultr.com/?ref=7318338>`_
+	* `Linode <https://www.linode.com/>`_
+	* `Amazon Web Services (AWS) <https://aws.amazon.com/>`_
 
 .. _externalfirewall_vpsandhotwallet:
 
@@ -210,15 +215,17 @@ Download and Configure the Rupaya Hot wallet
 	daemon=1
 	masternode=1
 	externalip=<public_mn_ip_address_here>:9050 
-	masternodeaddr=<public_mn_ip_address_here> 
-	masternodeprivkey=<your_masternode_genkey_output> 
+	masternodeaddr=<public_mn_ip_address_here>
+	bind=<public_mn_ip_address_here>
+	masternodeprivkey=<your_masternode_genkey_output>
 	
 * Update the variable after **rpcpassword=** with a 40 character RPC rpcpassword.
 * You will need to generate the rpcpassword yourself.
 * Use the **ifconfig** command, on the Linux VPS, to find out your Linux VPS IP address.  It is normally the address listed after the **eth0** interface after the word **inet addr:** 
 * Save your Linux VPS IP address as we are going to use this IP again in the Cold wallet setup
 * Update the variable after **externalip=** with your Linux VPS IP.  Ensure that there are no spaces between the IP address and the port **:9050**
-* Update the variable after **masternodeaddr=** with your Linux VPS IP 
+* Update the variable after **masternodeaddr=** with your Linux VPS IP
+* Update the variable after **bind=** with your Linux VPS IP
 * Update the variable after **masternodeprivkey=** with your MasterNode private key (GenKey)
 * Once all of the fields have been updated in the text editor, copy the template into your clipboard to be used in the next steps. 
 
@@ -245,9 +252,10 @@ Download and Configure the Rupaya Hot wallet
 	maxconnections=512 
 	listen=1 
 	daemon=1 
-	masternode=1 
+	masternode=1
 	externalip=199.247.10.25:9050 
 	masternodeaddr=199.247.10.25
+	bind=199.247.10.25
 	masternodeprivkey=87LBTcfgkepEddWNFrJcut76rFp9wQG6rgbqPhqHWGvy13A9hJK 
 	
 .. _saveconfig_vpsandhotwallet:

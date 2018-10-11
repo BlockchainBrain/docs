@@ -1,8 +1,8 @@
 .. _hotwalletautostart:
 
-==============================
-Enabling Hot Wallet Auto Start
-==============================
+============================
+Enable Hot Wallet Auto Start
+============================
 
 
 This section is intended for MasterNode users that want to configure the Linux VPS to automatically start the MasterNode Hot wallet when the Linux VPS is rebooted.

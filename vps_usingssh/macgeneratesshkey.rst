@@ -24,7 +24,7 @@ Generating an SSH Key
 	ssh-keygen
 	
 * Hit **ENTER** to confirm the default file name.
-* Hit **ENTER** two times when prompted for an SSH Key Passphrase.
+* Hit **ENTER** two times, without typing anything in, when prompted for an SSH Key Passphrase.
 
 .. _sshintovps_macgeneratesshkey:
 

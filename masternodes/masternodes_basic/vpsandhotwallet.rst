@@ -16,7 +16,7 @@ Order and setup a Linux VPS
 	
 .. _identifyvps_vpsandhotwallet:
 
-1. Identify a VPS provider and order a Linux Ubuntu 16.04 server.  It's important not to run the VPS at home because of the risk of network instability that could cause loss of connectivity to the server.  A VPS that meets the following requirements should cost around $5 per month
+1. Identify a VPS provider and order a Linux Ubuntu 16.04 server.  It's important not to run the VPS at home because of the risk of network instability that could cause loss of connectivity to the server.  A VPS that meets the following requirements should cost around $5 per month.
 
 	**Recommended VPS Providers:**
 	
@@ -26,16 +26,16 @@ Order and setup a Linux VPS
 	* `Amazon Web Services (AWS) <https://aws.amazon.com/>`_
 
 	|br|
-	**VPS Requirements:**
+	**VPS Minimum Requirements:**
 	
-	* Linux 64 bit
-	* Ubuntu 16.04
-	* Dedicated Public IP Address
-	* Recommended at least 1GB of RAM and 20GB of disk space
+	* Linux - Ubuntu 16.04 - 64 Bit OS
+	* 1GB of RAM
+	* 20GB of disk space
+	* Dedicated Public IP Address 
 	
 .. _externalfirewall_vpsandhotwallet:
 
-2. Login to the VPS provider website and configure the external firewall to allow SSH port 22 and the Rupaya Wallet port 9050
+2. Login to the VPS provider website and configure the external firewall to allow SSH port 22 and the Rupaya Wallet TCP port 9050.
 	
 .. _loginviassh_vpsandhotwallet:
 	
@@ -92,6 +92,8 @@ Order and setup a Linux VPS
 
 9. Configure the VPS internal firewall to allow SSH port 22 and the Rupaya Wallet port 9050::
 
+	ufw default deny incoming
+	ufw default allow outgoing
 	ufw allow 22/tcp	
 	ufw limit 22/tcp	
 	ufw allow 9050/tcp 	

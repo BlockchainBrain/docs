@@ -27,12 +27,12 @@ Order and setup a Linux VPS
 	|br|
 	**VPS Requirements**
 	
-	* Linux 64 bit
-	* Ubuntu 16.04
-	* Dedicated Public IP Address
-	* Recommended at least 1GB of RAM and 20GB of disk spaces
+	* Linux - Ubuntu 16.04 - 64 Bit OS
+	* 1GB of RAM
+	* 20GB of disk space
+	* Dedicated Public IP Address 
 	
-2. Login to the VPS provider website and configure the external firewall to allow SSH port 22 and the Rupaya Wallet port 9050
+2. Login to the VPS provider website and configure the external firewall to allow SSH port 22 and the Rupaya Wallet TCP port 9050.
 	
 3. Login to the VPS, via SSH, as the **root** user.
 

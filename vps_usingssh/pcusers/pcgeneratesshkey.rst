@@ -28,7 +28,7 @@ These instructions are intended for PC users that want to generate an SSH key on
 
 .. _generatekey_advanced:
 
-4. Click Generate to generate a new RSA 2048 bit key.
+4. Click **Generate** to generate a new RSA 2048 bit key.
 
 	* Be sure to check the **Parameters** to verify that **RSA** is selected.
 	* Speed up the key generation process by moving your mouse around the blank area under the green loading bar.
@@ -46,7 +46,7 @@ These instructions are intended for PC users that want to generate an SSH key on
 6. Save the copied SSH public key in a very safe location such as a password repository.
 
 	* You can paste this into a txt file temporarily, but be sure **NOT** to save it on your local computer to reduce the chances of it being vulnerable to being hacked. 
-	* You will need this public SSH key again later in the process when adding it to the Linux VPS server.
+	* You will need this SSH public key again later in the process when adding it to the Linux VPS server.
 	
 .. _saveprivatekey_advanced:
 

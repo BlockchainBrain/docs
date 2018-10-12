@@ -8,8 +8,8 @@ These instructions are intended for PC users that will be using Putty and SSH ke
 
 .. _downloadputty_downloadputty:
 
-Download and Configure Putty
-----------------------------
+Download Putty
+--------------
 
 1. Download the Putty terminal emulator that matches your OS.
 
@@ -22,7 +22,10 @@ Download and Configure Putty
 
 .. _createputtysession_downloadputty:
 
-3. Open Putty and create a saved session named **rupx01** for your Linux VPS.
+Create a New Saved Session Named rupx01
+---------------------------------------
+
+1. Open Putty and create a saved session named **rupx01** for your Linux VPS.
 
 	* In the **Hostname** field, type in your Linux VPS IP address
 	* In the **Saved Sessions** field, type in the name **rupx01**
@@ -38,11 +41,12 @@ Configure Putty to use an SSH Key
 	* Click on the saved session named **rupx01** and click **Load** 
 	* Expand the **SSH** Category on the left side of the window
 	* Click on the **Auth** Category so that it is highlighted
-	* Click on **Browse** next to the **Private key file for authentication** field
+	* Click on **Browse** on the right, under to the field **Private key file for authentication**
 	* Browse to the folder that contains your SSH private key
 	* Select the **sshprivatekey.ppk** file and click **Open**
-	* Scroll back up on the left under **Category** and click on the word **Session**, at the top of the window, to bring back the session page
-	* Click on **Save** to save the SSH Key to the **rupx01** session.  **NOTE: This step is very important.  Make sure that your server rupx01 is loaded in the Saved Sessions window and that you click Save.  If this step is not completed successfully, then your SSH Key will not be saved to this session and you will have to repeat these steps again**
+	* Scroll back up on the left under **Category** and click on the word **Session**, at the top of the window, to bring back the **Saved Sessions** page
+	* Click on **Save** to save the SSH Key to the **rupx01** session.  
+	* **NOTE: This step is very important.  Make sure that your server rupx01 is loaded in the Saved Sessions window and that you click Save.  If this step is not completed successfully, then your SSH Key will not be saved to this session and you will have to repeat these steps again**
 
 .. _connectwithputty_downloadputty:
 
@@ -52,9 +56,8 @@ Configure Putty to use an SSH Key
 
 .. _loginasroot_downloadputty:
 
-3. 	At the **login as:** prompt, type in **root** and hit **ENTER** to login to the Linux VPS as the **root** user.
+3. 	Login as the **root** user and type in, or paste in, your **root** password.
 
-	* At the **password:** prompt, paste in or type in the root password and hit **ENTER**
 	* **The screen will not display your password**
 	* **NOTE:** For those using Digital Ocean as your VPS provider, you will be prompted to change your **root** password.
 
@@ -81,21 +84,25 @@ You should be logged into the Linux VPS as the **root** user to complete the fol
 
 .. _pastesshkey_downloadputty:
 
-3. Paste the SSH Key into the **authorized_keys** file on the Linux VPS.  This is the key that you generated with the PuttyGen application.
+3. Paste the SSH public key into the **authorized_keys** file on the Linux VPS.  This is the public key that you generated and then copied from the PuttyGen application.
 
-* Save and close the file by hitting **Ctrl-X**, and then type **Y** to confirm that you want to save it, and then hit **ENTER** to confirm the file name.
-* NOTE: Your new SSH key is now saved in the /root/.ssh/authorized_keys file.  All future logins with the root username will allow you to login without being prompted for a password.
+	* **CRITICAL NOTE:** The SSH key that you paste in should begin with the text **ssh-rsa** and should end with a date, such as **rsa-key-20181012**.  If you do not get the entire key pasted into this file then the following steps will fail and you will have to repeat these steps.
+
+4. Save and close the file by hitting **Ctrl-X**, and then type **Y** to confirm that you want to save it, and then hit **ENTER** to confirm the file name.
+	
+	* NOTE: Your new SSH key is now saved in the **/root/.ssh/authorized_keys** file.  All future logins with the root username will allow you to login without being prompted for a password.
 
 .. _loginwithoutpass_downloadputty:
 
 **Let's test it!**
 	
-4. Verify you can now login to the Linux VPS without entering a password.  
+5. Duplicate the current Putty session and login as the **root** user.  This will verify that you can now login to the Linux VPS without entering a password.  
 
-	* Duplicate the existing Putty session to the Linux VPS by clicking the icon of two computers on the top left of the Putty application window and then select **Duplicate Session**
-	* At the **login as:** prompt, type in **root** and hit **ENTER** 
+	* To duplicate the existing Putty session to the Linux VPS, click the icon of two computers on the top left of the Putty application window and then select **Duplicate Session** 
 	* **NOTE: You should be automatically logged in to the Linux VPS without having to type in the root password**
 	
 .. warning::  If you are not automatically logged in without typing in a password then you likely did not save the SSH key into the putty session correctly, or you did not save the entire SSH key into the Linxu VPS file /root/.ssh/authorized_keys.  You will need to walk through the steps to save the SSH key in the Putty session and to ensure that the ENTIRE SSH key is added to the authorized_keys file on the Linux VPS before you proceed with the next section.
 	
 **If you are able to use Putty to login to the Linux VPS without being prompted for a password then you are done configuring your SSH keys and can proceed to the next section to disable password logins and root login access.**
+
+**For those of you that were already in the middle of the MasterNode setup process, you can return to the** :ref:`Finishing Touches section to configure the user rupxmn to use SSH keys<configuringssh_finishingtouches>`.

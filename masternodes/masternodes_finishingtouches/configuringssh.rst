@@ -19,7 +19,7 @@ Prerequisites
 	* :ref:`Mac Users - Configure Terminal to use the SSH Key<open2ndterminal_macgeneratesshkey>`
 	* :ref:`PC Users - Configure Putty to use the SSH Key<puttyimportprivkey_downloadputty>`
 	
-.. warning::  Do not proceed with the following steps until the above prerequisites have been completed successfully.  You will need to already able to login to the Linux VPS, as the **root** user, using an SSH key for the following steps to work properly.
+.. warning::  Do not proceed with the following steps until the above prerequisites have been completed successfully.  You will need to already be able to login to the Linux VPS, as the **root** user, using an SSH key for the following steps to work properly.
 
 Implementation Steps
 --------------------

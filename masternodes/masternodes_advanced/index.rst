@@ -5,9 +5,9 @@
 .. _masternodes_advanced:
 
 
-==============
-Advanced Setup
-==============
+==============================
+Advanced Users - Initial Setup
+==============================
 
 .. toctree::
    :maxdepth: 1
@@ -16,7 +16,7 @@ Advanced Setup
    adv-coldwallet.rst
    adv-verifymnstarted.rst
 	
-This section of the guide is for advanced users that do not require explanations for each task.  The Advanced Setup guide provides you with the steps and commands necessary to setup the Linux VPS, Hot wallet, and Cold wallet without providing details about how or why each step is being performed. 
+This section of the guide is for advanced users that do not require explanations for each task.  The Advanced Users - Initial Setup guide provides you with the steps and commands necessary to setup the Linux VPS, Hot wallet, and Cold wallet without providing details about how or why each step is being performed. 
 
 
 

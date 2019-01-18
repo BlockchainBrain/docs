@@ -98,21 +98,25 @@ Download and Configure the Rupaya Hot wallet
 	wget https://github.com/rupaya-project/rupx/releases/download/v5.0.25/rupayaqt-linux-64bit.tar.gz
 	sudo tar xvzf rupayaqt-linux-64bit.tar.gz -C /usr/local/bin/
 	
-2. Start the Hot wallet::
+2. Delete the rupayaqt-linux-64bit.tar.gz file::
+
+	rm rupayaqt-linux-64bit.tar.gz
+	
+3. Start the Hot wallet::
 
 	rupayad -daemon
 
-3. Generate the MasterNode private key (aka GenKey)::
+4. Generate the MasterNode private key (aka GenKey)::
 
 	rupaya-cli masternode genkey
 
-4. Copy and save the MasterNode private key (GenKey) from the previous command to be used later in the process:
+5. Copy and save the MasterNode private key (GenKey) from the previous command to be used later in the process:
 
-5. Stop the Hot wallet with the **rupaya-cli stop** command::
+6. Stop the Hot wallet with the **rupaya-cli stop** command::
 
 	rupaya-cli stop
 	
-6. Copy the rupaya.conf template, paste it into a text editor, and update the variables manually::
+7. Copy the rupaya.conf template, paste it into a text editor, and update the variables manually::
 	
 	rpcuser=rupayarpc 
 	rpcpassword=<alphanumeric_rpc_password> 
@@ -128,15 +132,15 @@ Download and Configure the Rupaya Hot wallet
 	masternodeaddr=<public_mn_ip_address_here> 
 	masternodeprivkey=<your_masternode_genkey_output> 
 	
-7. Edit the MasterNode Hot wallet configuration file **~/.rupayacore/rupaya.conf**::
+8. Edit the MasterNode Hot wallet configuration file **~/.rupayacore/rupaya.conf**::
 
 	nano ~/.rupayacore/rupaya.conf
 
-8. Paste the updated template into the **rupaya.conf** configuration file on the Linux VPS.
+9. Paste the updated template into the **rupaya.conf** configuration file on the Linux VPS.
 
-9. Save and exit the file by typing **CTRL+X** and hit **Y** + **ENTER** to save your changes.
+10. Save and exit the file by typing **CTRL+X** and hit **Y** + **ENTER** to save your changes.
 
-10. Restart the Hot wallet with the **rupayad -daemon** command::
+11. Restart the Hot wallet with the **rupayad -daemon** command::
 
 	rupayad -daemon
 	

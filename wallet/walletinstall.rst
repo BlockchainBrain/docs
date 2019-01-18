@@ -11,7 +11,7 @@ These instructions are intended for those that are installing the newest Rupaya 
 
 Requirements:
 --------------
-	* Windows 7 or higher, Mac OS, or Linux
+	* Windows 7 or higher, or Mac OS
 	* Outgoing internet access to sync the blockchain and enable the MasterNode remotely
 
 Install the Rupaya Core Wallet
@@ -65,4 +65,4 @@ This feature will disable the auto minting of RUPX into zRUPX.
 
 	**NOTE: THIS IS A CRITICAL STEP FOR THOSE THAT PLAN TO RUN A MASTERNODE**
 	
-**Once completed, you can proceed to the** :ref:`Bootstrap<wallet_bootstrap>` **section, which will reduce the amount of time it takes to synchronize the wallet with the network.**
+**Once completed, you can proceed to the next step to install the bootstrap, which will reduce the amount of time it takes to synchronize the wallet with the network.**

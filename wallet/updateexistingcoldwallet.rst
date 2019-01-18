@@ -109,18 +109,24 @@ Output your MN TXhash and Outputidx and update the MasterNode configuration file
 	If you want to control multiple MasterNode Hot wallets from this Cold wallet, you will need to repeat steps 1-7. The `masternode.conf` file will contain an entry for each masternode that will be added to the network.
  
 
-Starting the MN from the Cold Wallet
+Start the MN from the Cold Wallet
 ------------------------------------
 
 .. warning:: It is very important that you let the MasterNode Hot wallet synchronize for a couple of hours prior to starting it from the Cold wallet.  If you attempt to start it before it is fully synchronized then it will fail.
 
 .. _startmasternode_updateexisting:
 	
-10. Run the **startmasternode alias false MN1** command, in the Cold wallet Debug console, in order to enable the MasterNode::
+Option 1. Open the Masternodes tab, select the MasterNode that you want to start, and click the button **Start alias**
+
+Option 2. Open the Masternodes tab and click the button **Start all**
+
+Option 3. Open the Cold wallet Debug console and run the following command::
 
 	startmasternode alias false MN1
 
 * In the example above, the alias of my MasterNode was MN1. In your case, it might be different and is based on what you entered as the first word in the masternode.conf file.
 * You should get multiple lines of output.  If one of the lines of output says **"result" : successful"** then you can proceed to the next step to verify the MasterNode started correctly on the VPS Hot wallet.  If you did not get the **successful** output then there is likely an issue with the masternode.conf file that needs to be resolved first.
+
+.. warning:: Every time you use the startmasternode command to start the MN, it starts the queue cycle over again.  The queue cycle currently takes up to 36 hours for you to get a payout.  DO NOT USE THIS COMMAND IF YOUR SYSTEM IS ALREADY STARTED OR IT WILL CAUSE YOU TO LOSE YOUR PLACE IN THE QUEUE CYCLE AND THE 36 HOUR WAIT WILL START OVER AGAIN.
 	
 **If you received the output that shows the MasterNode started successfully then you can proceed to the next step to verify that your MasterNode started correctly from the VPS Hot wallet.**

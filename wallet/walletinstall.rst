@@ -31,7 +31,6 @@ Install the Rupaya Core Wallet
 
 4.Double click the Rupaya-qt file to open and install the new wallet.
 
-	* If you are prompted to use a data directory then select the radio button next to **Use the default data directory** and click **OK**
 	* Accept any pop ups asking to confirm if you want to continue with the installation
 	* When prompted, select **Use the default data directory** and click **OK**
 	* If prompted by security or antivirus software, click **Allow Always**
@@ -65,5 +64,5 @@ This feature will disable the auto minting of RUPX into zRUPX.
 5. Click **OK** to close the wallet options.
 
 	**NOTE: THIS IS A CRITICAL STEP FOR THOSE THAT PLAN TO RUN A MASTERNODE**
-
-**Once completed, you can proceed to the next step to perform the coin swap with the Swap Bot.**
+	
+**Once completed, you can proceed to the** :ref:'Bootstrap<bootstrap>' **section, which will reduce the amount of time it takes to synchronize the wallet with the network.**

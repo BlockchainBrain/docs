@@ -65,4 +65,4 @@ This feature will disable the auto minting of RUPX into zRUPX.
 
 	**NOTE: THIS IS A CRITICAL STEP FOR THOSE THAT PLAN TO RUN A MASTERNODE**
 	
-**Once completed, you can proceed to the** :ref:'Bootstrap<bootstrap>' **section, which will reduce the amount of time it takes to synchronize the wallet with the network.**
+**Once completed, you can proceed to the** :ref:`Bootstrap<wallet_bootstrap>` **section, which will reduce the amount of time it takes to synchronize the wallet with the network.**

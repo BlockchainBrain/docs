@@ -42,16 +42,6 @@ interest.
    introduction/safety
    introduction/information
 
-.. _users:
-
-.. toctree::
-   :maxdepth: 3
-   :hidden:
-   :includehidden:
-   :caption: Users
-
-   users/index
-
 .. _merchants:
 
 .. toctree::

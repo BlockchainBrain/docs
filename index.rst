@@ -70,7 +70,7 @@ interest.
    :includehidden:
    :caption: Network
 
-   Wallets/index
+   wallet/index
    vps_usingssh/index
    masternodes/index
 

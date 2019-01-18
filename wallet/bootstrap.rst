@@ -1,4 +1,4 @@
-.. _bootstrap:
+.. _wallet_bootstrap:
 
 ========================================
 Bootstrap - Steps to Install a Bootstrap

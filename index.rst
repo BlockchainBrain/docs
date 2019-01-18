@@ -70,7 +70,7 @@ interest.
    :includehidden:
    :caption: Network
 
-   coinswap/index
+   Wallets/index
    vps_usingssh/index
    masternodes/index
 

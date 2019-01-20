@@ -4,7 +4,7 @@
 Consolidating Coins Into A Single Wallet Address
 ================================================
 
-These instructions are intended for those that are consolidating all of your RUPX and zRUPX into a single wallet address.  These steps are to be performed on an existing Rupaya 4.x wallet, not the new wallet.  This process is critical to prepare for completing the coin swap with the Swap Bot.
+These instructions are intended for those that are consolidating all of your RUPX and zRUPX into a single wallet address.  This process is most useful for those that are staking coins in the wallet.
 
 Consolidating RUPX
 ==================
@@ -42,7 +42,6 @@ Consolidating RUPX
 	* Enter your wallet passphrase, if prompted.
 	* Click **Yes** when prompted to confirm that you are sure you want to send.
 
-.. warning:: Repeat the above steps for each wallet that contains RUPX coins.  It is critical that you successfully consoldate all of your RUPX and zRUPX coins into a single wallet address before proceeding with the coin swap.
 
 Consolidating zRUPX
 ===================
@@ -81,6 +80,3 @@ Consolidating zRUPX
 	* Click **Yes** when prompted to confirm that you are sure you want to send.
 	* NOTE: If you receive the error: **Failed to find coin set amonst held coins with less than maxNumber of Spends** then you will need to disable zRUPX Automint and wait for the existing zRUPX to complete 200 block confirmations before you will be able to complete this step.
 	
-.. warning:: Repeat the above steps for each wallet that contains zRUPX coins.  It is critical that you successfully consoldate all of your RUPX and zRUPX coins into a single wallet address before proceeding with the coin swap.
-
-**Once all of your coins have been consolidated, you can proceed to the next step to perform the coin swap with the Swap Bot**

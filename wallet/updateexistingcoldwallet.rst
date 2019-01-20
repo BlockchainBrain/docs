@@ -38,7 +38,7 @@ Start the MN from the Cold Wallet
 
 .. warning:: It is very important that you let the MasterNode Hot wallet synchronize for a couple of hours prior to starting it from the Cold wallet.  If you attempt to start it before it isfully synchronized then it will fail.  Both the Cold and Hot wallets need to be on same version/protocol to activate the MasterNode.
 
-**NOTE:** If you can update and restart your MasterNode within 1 hour, then it won't require a restart and shoudl stay enabled. However, if you are updating to a wallet with a different protocol then you must re-activate your node from the Cold Wallet regardless of whether you did the migration in less than one hour.
+**NOTE:** If you can update and restart your MasterNode within 1 hour, then it won't require a restart and should stay enabled. However, if you are updating to a wallet with a different protocol then you must re-activate your node from the Cold Wallet regardless of whether you did the migration in less than one hour.
 
 .. _startmasternode_updateexisting:
 
@@ -46,7 +46,7 @@ Start the MN from the Cold Wallet
 	
 * Option 1. Open the Masternodes tab, select the MasterNode that you want to start, and click the button **Start alias**
 * Option 2. Open the Masternodes tab and click the button **Start all**
-* Option 3. Open the Cold wallet Debug console and run the following command::
+* Option 3. Open the Cold Wallet Debug Console and run the following command::
 	
 	startmasternode alias false MN1
 

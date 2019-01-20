@@ -111,10 +111,11 @@ Output your MN TXhash and Outputidx and update the MasterNode configuration file
 4. Go to **Tools** -> **Open Masternode Configuration File** to open the **masternode.conf** file.  
 
 	* If you get prompted to choose a program, select a text editor like Notepad/TextEdit to open it.
-	* These are the default directories for the Rupaya data directory where this file is stored:
-	
-		* Mac: ~/Library/Application Support/Rupayacore
-		* Windows: ~/AppData/Roaming/Rupayacore
+	* These are the default directories for Rupaya:
+	+-------------------------------------------+
+	|* Mac: ~/Library/Application Support/Rupaya|
+	|* Windows: ~\AppData\Roaming\Rupayacore    |
+	+-------------------------------------------+
 
 5. Copy the following template and paste it into the **masternode.conf** file, on a new line::
 

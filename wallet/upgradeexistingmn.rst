@@ -22,9 +22,12 @@ These instructions are intended for those that are already running a MasterNode 
 
 	rupaya-cli stop
 
-4. Download and extract the new wallet::
+4. Download the new wallet::
 
 	wget https://github.com/rupaya-project/rupx/releases/download/v5.0.33/rupaya-5.0.33-x86_64-linux-gnu.tar.gz
+
+5. Extract the new wallet::
+
 	tar -xvf rupaya-5.0.33-x86_64-linux-gnu.tar.gz --strip-components 2
 
 5. Delete the unneccessary file::

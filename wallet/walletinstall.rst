@@ -33,9 +33,9 @@ Install the Rupaya Core Wallet
 	* When prompted, select **Use the default data directory** and click **OK**, unless you previously installed the wallet in a different location, such as the ~/appdata/rupayacore folder.
 	+------------------------------------------------+
 	|* Mac: ~/Library/Application Support/RupayaCore |
-	|      or ~/Library/Application Support/Rupaya   |
+	|*     or ~/Library/Application Support/Rupaya   |
 	|* Windows: ~/AppData/Roaming/RupayaCore         |
-	|        or ~/AppData/Roaming/Rupaya             |
+	|*       or ~/AppData/Roaming/Rupaya             |
 	+------------------------------------------------+
 	* If prompted by security or antivirus software, click **Allow Always**
 	* The new wallet should now open and begin to synchronize with the network

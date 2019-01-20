@@ -19,9 +19,10 @@ This section is intended for those that want to install the bootstrap on a PC or
 	* https://rupaya.ams3.cdn.digitaloceanspaces.com/bootstrap/rupx-bootstrap-160119.zip
 
 3. Open the file named **rupx0bootstrap-16.xip** and extract the folders and files to the RupayaCore folder.
-
-	* Mac: ~/Library/Application Support/RupayaCore
-	* Windows: ~/AppData/Roaming/RupayaCore
+	+------------------------------------------------+
+	|* Mac: ~/Library/Application Support/RupayaCore |
+	|* Windows: ~/AppData/Roaming/RupayaCore         |
+	+------------------------------------------------+
 	* If prompted, confirm that you want to replace the existing file(s).
 
 3. Restart the Rupaya wallet.  

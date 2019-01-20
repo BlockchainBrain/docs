@@ -88,16 +88,18 @@ Verify the Masternode.conf File is Configured Correctly
 Start the MN from the Cold Wallet
 ------------------------------------
 
-**CRITICAL NOTES:
-+--------------------------------------------------------------------------------------------------------------------------+
-|* It is very important that you let the MasterNode Hot wallet synchronize for a couple of hours prior to                  |
-|starting it from the Cold wallet.  If you attempt to start it before it is fully synchronized then it will fail.          |
-|* If you can update and restart your MasterNode within 1 hour, then it doesn't require a restart and should stay enabled. |
-|* If you update to a wallet with a different protocol you must re-activate your node from the desktop wallet regardless of| |whether you did the migration in less than one hour.  All wallets need to be on same protocol to activate MasterNode.     |
-+--------------------------------------------------------------------------------------------------------------------------+
+**CRITICAL NOTES:**
++--------------------------------------------------------------------------------------------+
+|* It is very important that you let the MasterNode Hot wallet synchronize for a couple of   | 
+|	hours prior to starting it from the Cold wallet.  If you attempt to start it before it is| 
+|	fully synchronized then it will fail.                                                    |
+|* If you can update and restart your MasterNode within 1 hour, then it doesn't require a    |
+|	restart and should stay enabled.                                                         |
+|* If you update to a wallet with a different protocol you must re-activate your node from   |
+|	the desktop wallet regardless of whether you did the migration in less than one hour.    |
+|* All wallets need to be on same protocol to activate MasterNode.                           |
++--------------------------------------------------------------------------------------------+
 
-
-	
 1. There are three ways that you can start the MasterNode from the Cold Wallet.  Below are the three options to register the MasterNode.
 
 Option 1. Open the Masternodes tab, select the MasterNode that you want to start, and click the button **Start alias**

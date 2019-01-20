@@ -72,7 +72,7 @@ Output your MN TXhash and Outputidx and update the MasterNode configuration file
 
 7. Restart the Cold wallet to pick up the changes to the **masternode.conf** file.
 
-Verify the Masternode.conf File is Configure Correctly
+Verify the Masternode.conf File is Configured Correctly
 ------------------------------------------------------
 
 1. Open the Debug console and run the command **masternode list-conf**::
@@ -88,7 +88,15 @@ Verify the Masternode.conf File is Configure Correctly
 Start the MN from the Cold Wallet
 ------------------------------------
 
-.. warning:: It is very important that you let the MasterNode Hot wallet synchronize for a couple of hours prior to starting it from the Cold wallet.  If you attempt to start it before it is fully synchronized then it will fail.
+**CRITICAL NOTES:
++--------------------------------------------------------------------------------------------------------------------------+
+|* It is very important that you let the MasterNode Hot wallet synchronize for a couple of hours prior to                  |
+|starting it from the Cold wallet.  If you attempt to start it before it is fully synchronized then it will fail.          |
+|* If you can update and restart your MasterNode within 1 hour, then it doesn't require a restart and should stay enabled. |
+|* If you update to a wallet with a different protocol you must re-activate your node from the desktop wallet regardless of| |whether you did the migration in less than one hour.  All wallets need to be on same protocol to activate MasterNode.     |
++--------------------------------------------------------------------------------------------------------------------------+
+
+
 	
 1. There are three ways that you can start the MasterNode from the Cold Wallet.  Below are the three options to register the MasterNode.
 

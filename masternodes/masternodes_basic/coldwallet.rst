@@ -129,7 +129,7 @@ Output your MN TXhash and Outputidx and update the MasterNode configuration file
 
 .. _listconfbasic_coldwallet:
 
-Verify the Masternode.conf File is Configure Correctly
+Verify the Masternode.conf File is Configured Correctly
 ------------------------------------------------------
 
 1. Open the Debug console and run the command **masternode list-conf**::

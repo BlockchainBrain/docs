@@ -10,8 +10,8 @@ These instructions are intended for those that are installing the new Rupaya Cor
 
 Requirements:
 --------------
-	``* Windows 7 or higher, Mac OS, or Linux``
-	``* Outgoing internet access to sync the blockchain and enable the MasterNode remotely``
+	``**Windows 7 or higher, Mac OS, or Linux Ubuntu 16.04/18.04**``
+	``**Outgoing internet access to sync the blockchain and enable the MasterNode remotely**``
 
 Install the Rupaya Cold Wallet
 ------------------------------

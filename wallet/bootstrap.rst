@@ -35,9 +35,9 @@ This section is intended for those that want to install the bootstrap on a PC or
 Downloading the Bootstrap from a Linux VPS Using a Bash Script
 --------------------------------------------------------------
 
-This section is intended for those that want to install the bootstrap on a Linux VPS using a bash script, which will automate the process.  
+This section is intended for those that want to install the bootstrap on a Linux VPS using a bash script, which will automate the process.  This version of the bash script will only work with users that installed the Hot Wallet with the user named **rupxmn**.  If you used **root** then you will need to install the bootstrap manually.
 
-.. warning:: Only do this on a Linux VPS Hot Wallet that does not contain RUPX or zRUPX, or you will lose your coins.
+.. warning:: Only do this on a Linux VPS Hot Wallet that does not contain RUPX or zRUPX, or you will lose your coins.  
 	
 1. Login to the Linux VPS as the user that will be running the wallet.
 

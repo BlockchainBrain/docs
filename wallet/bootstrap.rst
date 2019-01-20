@@ -45,11 +45,11 @@ This section is intended for those that want to install the bootstrap on a Linux
 
 	rupaya-cli stop
 
-2. Run the following command to download the bash script:
+2. Run the following command to download the bash script::
 
 	wget https://cdn.discordapp.com/attachments/533345435130134578/535190635074945024/bootstrap.sh
 
-3. Run the following command to run the bash script, which will automatically download and install the bootstrap folders and files. 
+3. Run the following command to run the bash script, which will automatically download and install the bootstrap folders and files::
 
 	bootstrap.sh
 
@@ -73,8 +73,8 @@ This section is intended for those that want to manually install the bootstrap o
 
 3. Run the following commands to delete the old rupayacore files and folders::
 
-	rm -rf ~/.rupayacore/backups ~/.rupayacore/blocks ~/.rupayacore/chainstate ~/.rupayacore/database ~/.rupayacore/sporks ~/.rupayacore/zerocoin >/dev/null 2>&1
-	rm ~/.rupayacore/*.log ~/.rupayacore/*.dat ~/.rupayacore/.lock ~/.rupayacore/rupayad.pid >/dev/null 2>&1 
+	cd ~/.rupayacore
+	rm -R *.dat blocks/ chainstate/ backups/ zerocoin sporks *.log .lock masternode.conf 
 
 
 4. Run the following command to download the bootstrap:

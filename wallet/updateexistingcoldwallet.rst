@@ -7,9 +7,11 @@ Update an Existing MasterNode Cold Wallet
 These instructions are intended for those that were already running a MasterNode Cold wallet and want to update the existing wallet to start running the MasterNode again.  
 
 **Prerequisites:**
-	* :ref:`Install the New Rupaya Core 5 Wallet<installnewwallet>`
-	* :ref:`Upgrade an Existing MasterNode VPS Hot Wallet<upgradehotwallet>`
-
+	+--------------------------------------------------------------------------------------+
+	| * :ref:`Install the New Rupaya Core 5 Wallet<installnewwallet>`                      |
+	| * :ref:`Upgrade an Existing MasterNode VPS Hot Wallet<upgradehotwallet>`             | 
+	+--------------------------------------------------------------------------------------+
+	
 Implementation Steps
 --------------------
 

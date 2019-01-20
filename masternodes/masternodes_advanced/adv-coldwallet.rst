@@ -8,8 +8,10 @@ These instructions are intended for advanced users that are setting up a Cold wa
 
 Requirements:
 --------------
-	* Windows 7 or higher, Mac OS, or Linux
-	* Outgoing internet access to sync the blockchain and enable the MasterNode remotely
+	+--------------------------------------------------------------------------------------+
+	| * Windows 7 or higher, Mac OS, or Linux Ubuntu 16.04/18.04                           |
+	| * Outgoing internet access to sync the blockchain and enable the MasterNode remotely | 
+	+--------------------------------------------------------------------------------------+
 
 Install the Rupaya Cold Wallet
 ------------------------------

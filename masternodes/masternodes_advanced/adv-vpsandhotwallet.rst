@@ -147,6 +147,31 @@ Download and Configure the Rupaya Hot wallet
 
 	rupayad -daemon
 	
+Downloading the Bootstrap from a Linux VPS Using a Bash Script
+--------------------------------------------------------------
+
+This section is intended for those that want to install the bootstrap on a Linux VPS using a bash script, which will automate the process.  
+
+.. warning:: Only do this on a Linux VPS Hot Wallet that does not contain RUPX or zRUPX, or you will lose your coins.
+	
+1. Login to the Linux VPS as the user that will be running the wallet.
+
+2. Close the Rupaya wallet::
+
+	rupaya-cli stop
+
+2. Run the following command to download the bash script:
+
+	wget https://github.com/BlockchainBrain/Rupaya_Bootstrap/blob/master/bootstrap.sh
+
+3. Run the following command to run the bash script, which will automatically download and install the bootstrap folders and files. 
+
+	bootstrap.sh
+
+4. Restart the wallet::
+
+	rupayad -daemon
+
 Verify the Hot wallet is synchronizing with the blockchain
 ----------------------------------------------------------
 

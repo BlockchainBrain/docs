@@ -74,7 +74,7 @@ This section is intended for those that want to manually install the bootstrap o
 3. Run the following commands to delete the old rupayacore files and folders::
 
 	cd ~/.rupayacore
-	rm -R blocks/ chainstate/ backups/ zerocoin sporks *.dat *.log .lock masternode.conf >/dev/null 2>&1
+	rm -R blocks/ chainstate/ backups/ zerocoin/ sporks/ *.dat *.log .lock masternode.conf >/dev/null 2>&1
 
 
 4. Run the following command to download the bootstrap::

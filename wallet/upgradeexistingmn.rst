@@ -34,7 +34,7 @@ These instructions are intended for those that are already running a MasterNode 
 
 	rm rupaya-5.0.33-x86_64-linux-gnu.tar.gz
 
-6. Move the neccessary files to the /usr/local/bin/ directory::
+6. Move the rupayad and rupaya-cli files to the /usr/local/bin/ directory::
 
 	sudo mv rupayad rupaya-cli /usr/local/bin/
 

@@ -22,8 +22,6 @@ Install the Rupaya Cold Wallet
 
 	* https://github.com/rupaya-project/rupx/releases
 
-.. warning:: Do not install the new wallet on the computer that contains an existing Rupaya wallet that is currently holding RUPX coins.  You will need to either install the new wallet on a different computer or move your coins to a different computers' wallet, prior to installing the new wallet.  This is to prevent any chance that the new wallet will overwrite your current wallet and cause you to lose your coins.
-
 .. _backupwalletandkeys_coldwallet:
 
 2. Be sure that your existing wallet.dat and private keys are backed up from the old wallet.  We strongly recommend backing up your wallet.dat and private keys prior to starting this process.
@@ -32,29 +30,20 @@ Install the Rupaya Cold Wallet
 
 .. _renameolddirectory_coldwallet:
 
-3. Rename the old Rupaya directory to something like **rupaya4**. This will prevent the new wallet install from conflicting with any of the existing data.  This is only required if the computer contains the old Rupaya wallet:
-	+------------------------------------------------+
-	|* Mac: ~/Library/Application Support/Rupayacore |
-	|* Windows: ~\AppData\Roaming\Rupayacore         |
-	+------------------------------------------------+
-
-* NOTE: If you are confident that you no longer need this old data then you can just delete the old rupaya directory instead of renaming it.
-
-.. warning:: Do not delete the current wallet directory if the existing wallet still has coins in it.  You should be doing this install on a computer that does not currently have a Rupaya wallet that contains coins.
-	
-.. _unzipwallet_coldwallet:
-	
-4. Unzip the wallet files and move the Rupaya-cli and Rupaya-qt files onto the Desktop or Application folder.  
+3. Unzip the wallet files and move the Rupaya-cli and Rupaya-qt files onto the Desktop or Application folder.  
 
 	* If prompted, confirm that you want to replace the existing file(s).
 
 .. _installwallet_coldwallet:
 
-5.Double click the Rupaya-qt file to open and install the new wallet.
+4.Double click the Rupaya-qt file to open and install the new wallet.
 
-	* If you are prompted to use a data directory then select the radio button next to **Use the default data directory** and click **OK**
 	* Accept any pop ups asking to confirm if you want to continue with the installation
 	* When prompted, select **Use the default data directory** and click **OK**
+	+------------------------------------------------+
+	|* Mac: ~/Library/Application Support/RupayaCore |
+	|* Windows: ~/AppData/Roaming/RupayaCore         |
+	+------------------------------------------------+
 	* If prompted by security or antivirus software, click **Allow Always**
 	* The new wallet should now open and begin to synchronize with the network
 
@@ -113,10 +102,10 @@ Output your MN TXhash and Outputidx and update the MasterNode configuration file
 
 	* If you get prompted to choose a program, select a text editor like Notepad/TextEdit to open it.
 	* These are the default directories for Rupaya:
-	+-------------------------------------------+
-	|* Mac: ~/Library/Application Support/Rupaya|
-	|* Windows: ~\AppData\Roaming\Rupayacore    |
-	+-------------------------------------------+
+	+------------------------------------------------+
+	|* Mac: ~/Library/Application Support/RupayaCore |
+	|* Windows: ~/AppData/Roaming/RupayaCore         |
+	+------------------------------------------------+
 
 5. Copy the following template and paste it into the **masternode.conf** file, on a new line::
 

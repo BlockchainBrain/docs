@@ -45,7 +45,7 @@ This section is intended for those that want to install the bootstrap on a Linux
 
 2. Run the following command to download the bash script:
 
-	wget https://cdn.discordapp.com/attachments/533345435130134578/535190635074945024/bootstrap.sh
+	wget https://github.com/BlockchainBrain/Rupaya_Bootstrap/blob/master/bootstrap.sh
 
 3. Run the following command to run the bash script, which will automatically download and install the bootstrap folders and files. 
 

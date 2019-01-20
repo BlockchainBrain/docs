@@ -11,11 +11,11 @@ These instructions are intended for those that are already running a MasterNode 
 1. Use Putty (PC) or Terminal (MAC) to login to the Linux VPS that is running the Rupaya Hot wallet.  
 
 2. Login as the user that you used to install the wallet.  Below are some of the possible usernames you may have used, depending on which installation guide you followed:
-
-	* root (github)
-	* rupxmn (http://rupx.center/mnode)
-	* rupx01 (GoodTimes setup guide)
-
+	+-------------------------------------+
+	|* root (github)                      |
+	|* rupxmn (http://rupx.center/mnode)  |
+	|* rupx01 (GoodTimes setup guide)     |
+	|-------------------------------------+
 	Note: These instructions will assume that you did not use root as the default user and therefore provides the commands starting with sudo to allow the commands to run with root privileges.
 
 3. Stop the current wallet daemon with the following command::

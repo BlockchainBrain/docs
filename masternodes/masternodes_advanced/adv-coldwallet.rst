@@ -98,6 +98,6 @@ Option 3. Open the Cold wallet Debug console and run the following command::
 * In the example above, the alias of my MasterNode was MN1. In your case, it might be different and is based on what you entered as the first word in the masternode.conf file.
 * You should get multiple lines of output.  If one of the lines of output says **"result" : successful"** then you can proceed to the next step to verify the MasterNode started correctly on the VPS Hot wallet.  If you did not get the **successful** output then there is likely an issue with the masternode.conf file that needs to be resolved first.
 
-.. warning:: Every time you use the startmasternode command to start the MN, it starts the queue cycle over again.  The queue cycle currently takes up to 36 hours for you to get a payout.  DO NOT USE THIS COMMAND IF YOUR SYSTEM IS ALREADY STARTED OR IT WILL CAUSE YOU TO LOSE YOUR PLACE IN THE QUEUE CYCLE AND THE 36 HOUR WAIT WILL START OVER AGAIN.
+.. warning:: Every time you start the MN, from the Cold Wallet, it starts the queue cycle over again.  The queue cycle currently takes up to 36 hours for you to get a payout.  DO NOT USE THIS COMMAND IF YOUR SYSTEM IS ALREADY STARTED OR IT WILL CAUSE YOU TO LOSE YOUR PLACE IN THE QUEUE CYCLE AND THE 36 HOUR WAIT WILL START OVER AGAIN.
 
 **If you received the output that shows the MasterNode started successfully then you can proceed to the next step to verify that your MasterNode started correctly from the VPS Hot wallet.**

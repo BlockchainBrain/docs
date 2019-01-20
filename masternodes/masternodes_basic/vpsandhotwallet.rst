@@ -238,30 +238,44 @@ Download and Configure the Rupaya Hot wallet
 
 	rupayad -daemon
 	
-Downloading the Bootstrap from a Linux VPS Using a Bash Script
---------------------------------------------------------------
+Downloading the Bootstrap manually from a Linux VPS
+---------------------------------------------------
 
-This section is intended for those that want to install the bootstrap on a Linux VPS using a bash script, which will automate the process.  
-
-.. warning:: Only do this on a Linux VPS Hot Wallet that does not contain RUPX or zRUPX, or you will lose your coins.
+This section is intended for those that want to manually install the bootstrap on a Linux VPS.  
 	
+.. warning:: Only do this on a Linux VPS Hot Wallet that does not contain RUPX or zRUPX, or you will lose your coins.
+
 1. Login to the Linux VPS as the user that will be running the wallet.
 
 2. Close the Rupaya wallet::
 
 	rupaya-cli stop
 
-2. Run the following command to download the bash script:
+3. Run the following commands to delete the old rupayacore files and folders::
 
-	wget https://github.com/BlockchainBrain/Rupaya_Bootstrap/blob/master/bootstrap.sh
+	rm -rf ~/.rupayacore/backups ~/.rupayacore/blocks ~/.rupayacore/chainstate ~/.rupayacore/database ~/.rupayacore/sporks ~/.rupayacore/zerocoin >/dev/null 2>&1
+	rm ~/.rupayacore/*.log ~/.rupayacore/*.dat ~/.rupayacore/.lock ~/.rupayacore/rupayad.pid >/dev/null 2>&1 
 
-3. Run the following command to run the bash script, which will automatically download and install the bootstrap folders and files. 
 
-	bootstrap.sh
+4. Run the following command to download the bootstrap:
 
-4. Restart the wallet::
+	wget https://www.dropbox.com/s/hqmmf5wo6gpbq1b/rupx-bootstrap-160119.zip
+
+5. Install Unzip::
+
+	apt-get install unzip -y
+
+6. Unzip the bootstrap folders and files into the .rupayacore folder:: 
+
+	unzip rupx-bootstrap-160119.zip -d ~/.rupayacore
+
+7. Restart the wallet::
 
 	rupayad -daemon
+
+8. Delete the bootstrap.zip file::
+
+	rm rupx-bootstrap-160119.zip
 	
 Verify the Hot wallet is synchronizing with the blockchain
 ----------------------------------------------------------

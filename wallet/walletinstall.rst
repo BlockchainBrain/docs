@@ -27,11 +27,7 @@ Install the Rupaya Core Wallet
 
 	For more instructions, watch this Video_ from a fellow Rupayan, David Coen, on how to export your private keys:
 
-3. Unzip the wallet files and move the Rupaya-cli and Rupaya-qt files onto the Desktop or Application folder.  
-
-	* If prompted, confirm that you want to replace the existing file(s).
-
-4.Double click the Rupaya-qt file to open and install the new wallet.
+3.Double click the Rupaya-qt file to open and install the new wallet.
 
 	* Accept any pop ups asking to confirm if you want to continue with the installation
 	* When prompted, select **Use the default data directory** and click **OK**

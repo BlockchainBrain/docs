@@ -32,8 +32,6 @@ Install the Rupaya Core Wallet
 	* If prompted by security or antivirus software, click **Allow Always**
 	* The new wallet should now open and begin to synchronize with the network
 
-5. Open the wallet that was just installed in the designated data directory.
-
 
 Start the MN from the Cold Wallet
 ------------------------------------

@@ -17,7 +17,9 @@ Install the Rupaya Core Wallet
 
 	For more instructions, watch this Video_ from a fellow Rupayan, David Coen, on how to export your private keys:
 
-3.Double click the Rupaya file to open and install the new wallet.
+3. Close the Rupaya wallet.
+
+4. Double click the Rupaya file to open and install the new wallet.
 
 	* Accept any pop ups asking to confirm if you want to continue with the installation
 	* When prompted, select **Use the default data directory** and click **OK**, unless you previously installed the wallet in a different location, such as the **rupayacore** folder.
@@ -30,7 +32,7 @@ Install the Rupaya Core Wallet
 	* If prompted by security or antivirus software, click **Allow Always**
 	* The new wallet should now open and begin to synchronize with the network
 
-4. Open the wallet that was just installed in the designated data directory.
+5. Open the wallet that was just installed in the designated data directory.
 
 
 Start the MN from the Cold Wallet

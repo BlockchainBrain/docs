@@ -78,6 +78,8 @@ Order and setup a Linux VPS
 Create a New User and Login as rupxmn
 -------------------------------------
 
+**OPTIONAL STEP:** The following steps (1 - 3) are optional.  These steps are strongly recommended for those that want to implement security best practices.  These steps are recommended so that the Hot wallet is not installed under the root user account.
+
 1. Create a new user named **rupxmn** and assign a password to the new user::
 
 	useradd -m -s /bin/bash rupxmn

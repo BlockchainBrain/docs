@@ -21,7 +21,9 @@ This section is intended for those that want to install the bootstrap on a PC or
 3. Open the file named **rupx0bootstrap-16.xip** and extract the folders and files to the RupayaCore folder.
 	+------------------------------------------------+
 	|* Mac: ~/Library/Application Support/RupayaCore |
+	|*     or ~/Library/Application Support/Rupaya   |
 	|* Windows: ~/AppData/Roaming/RupayaCore         |
+	|*       or ~/AppData/Roaming/Rupaya             |
 	+------------------------------------------------+
 	* If prompted, confirm that you want to replace the existing file(s).
 

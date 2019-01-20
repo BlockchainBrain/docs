@@ -27,12 +27,13 @@ Install the Rupaya Core Wallet
 
 	For more instructions, watch this Video_ from a fellow Rupayan, David Coen, on how to export your private keys:
 
-3.Double click the Rupaya-qt file to open and install the new wallet.
+3.Double click the Rupaya file to open and install the new wallet.
 
 	* Accept any pop ups asking to confirm if you want to continue with the installation
 	* When prompted, select **Use the default data directory** and click **OK**, unless you previously installed the wallet in a different location, such as the ~/appdata/rupayacore folder.
 	+------------------------------------------------+
 	|* Mac: ~/Library/Application Support/RupayaCore |
+	|      or ~/Library/Application Support/Rupaya   |
 	|* Windows: ~/AppData/Roaming/RupayaCore         |
 	|        or ~/AppData/Roaming/Rupaya             |
 	+------------------------------------------------+

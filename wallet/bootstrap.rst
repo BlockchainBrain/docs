@@ -77,7 +77,7 @@ This section is intended for those that want to manually install the bootstrap o
 	rm -R *.dat blocks/ chainstate/ backups/ zerocoin sporks *.log .lock masternode.conf 
 
 
-4. Run the following command to download the bootstrap:
+4. Run the following command to download the bootstrap::
 
 	wget https://www.dropbox.com/s/hqmmf5wo6gpbq1b/rupx-bootstrap-160119.zip
 

@@ -125,7 +125,7 @@ Both the Cold and Hot wallets need to be on same version/protocol to activate th
 	
 	* Option 1. Open the Masternodes tab, select the MasterNode that you want to start, and click the button **Start alias**
 	* Option 2. Open the Masternodes tab and click the button **Start all**
-	* Option 3. Open the Cold wallet Debug console and run the following command::
+	* Option 3. Open the Cold wallet Debug console and run the following command:::
 	
 	startmasternode alias false MN1
 

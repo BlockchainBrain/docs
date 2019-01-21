@@ -11,6 +11,7 @@ MasterNodes
    masternodes_basic/index
    masternodes_finishingtouches/index
    masternodes_advanced/index
+   masternodes_scripted/index
    masternodes_templates/index
    
 **Introduction**

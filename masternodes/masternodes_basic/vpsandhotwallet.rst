@@ -315,6 +315,8 @@ Verify the Hot wallet is synchronizing with the blockchain
 1. Run the **rupaya-cli getinfo** command to make sure that you see active connections::
 	
 	rupaya-cli getinfo
+
+* NOTE: It may take a few minutes for connections to bgin to establish.  Don't be alarmed if the initial output shows **"blocks": -1**
 	
 .. _blockcount_vpsandhotwallet:
 

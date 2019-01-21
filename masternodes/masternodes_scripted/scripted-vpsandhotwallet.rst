@@ -69,11 +69,6 @@ This section is intended for those that want to install the bootstrap on a Linux
 	wget https://raw.githubusercontent.com/BlockchainBrain/Rupaya_Bootstrap/master/root-bootstrap.sh
 	bash root-bootstrap.sh
 
-3. Verify that the wallet is running and that the block count is above 177000::
-
-	rupaya-cli getinfo
-
-* NOTE: It may take a few minutes for connections to bgin to establish.  Don't be alarmed if the initial output shows **"blocks": -1**
 	
 Verify the Hot wallet is synchronizing with the blockchain
 ----------------------------------------------------------

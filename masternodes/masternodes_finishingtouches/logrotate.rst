@@ -20,7 +20,7 @@ This section is intended for MasterNode users that want to configure automatic l
 	
 4. Copy the following text and paste it into the file.
 
-	* Use this template if you are running the wallet with the user **rupxmn**::
+* Use this template if you are running the wallet with the user **rupxmn**::
 	
 	/home/rupxmn/.rupayacore/*.log {
 		su root adm
@@ -35,7 +35,7 @@ This section is intended for MasterNode users that want to configure automatic l
 		create
 	}
 
-	* Use this template if you are running the wallet with the user **root**::
+* Use this template if you are running the wallet with the user **root**::
 	
 	/root/.rupayacore/*.log {
 		su root adm

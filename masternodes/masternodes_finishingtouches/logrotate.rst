@@ -66,7 +66,7 @@ This section is intended for MasterNode users that want to configure automatic l
 
 	crontab -e
 
-* If prompted, type in the number **2** and hit **ENTER** to select Nano as your text editor
+* If prompted, select Nano as your text editor
 	
 7. Copy the following text and paste it on a new line at the bottom of the **crontab** file.
 

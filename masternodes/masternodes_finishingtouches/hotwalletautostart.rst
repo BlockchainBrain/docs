@@ -19,7 +19,13 @@ This section is intended for MasterNode users that want to configure the Linux V
 	
 4. Copy the following text and paste it into the resetrupaya file.  This will create a cronjob that will start the Hot wallet automatically in the event that the server is rebooted::
 
+* For those running the wallet as the user **rupxmn**, use the following template::
+
 	@reboot rupxmn sleep 5 && /usr/local/bin/rupayad
+
+* For those running the wallet as the user **root**, use the following template::
+
+	@reboot root sleep 5 && /usr/local/bin/rupayad
 
 * Save and close the file by hitting **Ctrl-X**, and then type **Y** to confirm that you want to save it, and then hit **ENTER** to confirm the file name.
 

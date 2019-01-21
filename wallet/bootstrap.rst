@@ -66,7 +66,7 @@ This section is intended for those that want to manually install the bootstrap o
 
 2. Close the Rupaya wallet::
 
-	rupaya-cli stop
+	rupaya-cli stop && sleep 10
 
 3. Run the following commands to delete the old rupayacore files and folders::
 

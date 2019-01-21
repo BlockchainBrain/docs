@@ -64,7 +64,11 @@ This section is intended for those that want to install the bootstrap on a Linux
 	
 1. Login to the Linux VPS as the user that will be running the wallet.
 
-2. Run the following commands, **one at a time**, to download and run the bash script::
+2. Stop the Rupaya daemon::
+
+	systemctl stop Rupaya.service
+
+3. Run the following commands, **one at a time**, to download and run the bash script::
 	
 	wget https://raw.githubusercontent.com/BlockchainBrain/Rupaya_Bootstrap/master/root-bootstrap.sh
 	bash root-bootstrap.sh

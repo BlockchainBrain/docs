@@ -19,20 +19,21 @@ Order and setup a Linux VPS
 1. Identify a VPS provider and order a Linux Ubuntu 16.04 server.  It's important not to run the VPS at home because of the risk of network instability that could cause loss of connectivity to the server.  A VPS that meets the following requirements should cost around $5 per month.
 
 	**Recommended VPS Providers:**
-	+---------------------------------------------------------+
-	|* `Digital Ocean <https://m.do.co/c/95a89fb0b62d>`_      | 
-	|* `Vultr <https://www.vultr.com/?ref=7318338>`_          |
-	|* `Linode <https://www.linode.com/>`_                    |
-	|* `Amazon Web Services (AWS) <https://aws.amazon.com/>`_ |
-	+---------------------------------------------------------+
-	|br|
++---------------------------------------------------------+
+|* `Digital Ocean <https://m.do.co/c/95a89fb0b62d>`_      | 
+|* `Vultr <https://www.vultr.com/?ref=7318338>`_          |
+|* `Linode <https://www.linode.com/>`_                    |
+|* `Amazon Web Services (AWS) <https://aws.amazon.com/>`_ |
++---------------------------------------------------------+
+
 	**VPS Minimum Requirements:**
-	+-----------------------------------------+
-	|* Linux - Ubuntu 16.04/18.04 - 64 Bit OS |
-	|* 1GB of RAM                             |
-	|* 20GB of disk space                     |
-	|* Dedicated Public IP Address            |
-	+-----------------------------------------+
++-----------------------------------------+
+|* Linux - Ubuntu 16.04/18.04 - 64 Bit OS |
+|* 1GB of RAM                             |
+|* 20GB of disk space                     |
+|* Dedicated Public IP Address            |
++-----------------------------------------+
+
 .. _externalfirewall_vpsandhotwallet:
 
 2. Login to the VPS provider website and configure the external firewall to allow SSH port 22 and the Rupaya Wallet TCP port 9050.

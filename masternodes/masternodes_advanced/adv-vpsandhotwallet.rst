@@ -15,7 +15,7 @@ Order and setup a Linux VPS
 	
 .. _identifyvps_vpsandhotwallet:
 
-1. Identify a VPS provider and order a Linux Ubuntu 16.04 server.
+1. Identify a VPS provider and order a Linux Ubuntu 16.04 or 18.04 x64 server.
 
 	**Recommended VPS Providers:**
 +---------------------------------------------------------+
@@ -96,30 +96,28 @@ Create a New User and Login as rupxmn
 Download and Configure the Rupaya Hot wallet
 --------------------------------------------
 
-1. Install the Rupaya Hot wallet on the VPS::
+1. Install the Rupaya Hot wallet on the VPS by running the following commands **one at a time**::
 
-	wget https://github.com/rupaya-project/rupx/releases/download/v5.0.25/rupayaqt-linux-64bit.tar.gz
-	sudo tar xvzf rupayaqt-linux-64bit.tar.gz -C /usr/local/bin/
+	wget https://github.com/rupaya-project/rupx/releases/download/v5.0.33/rupaya-5.0.33-x86_64-linux-gnu.tar.gz
+	tar -xvf rupaya-5.0.33-x86_64-linux-gnu.tar.gz --strip-components 2
+	rm rupaya-5.0.33-x86_64-linux-gnu.tar.gz
+	sudo mv rupayad rupaya-cli /usr/local/bin/
 	
-2. Delete the rupayaqt-linux-64bit.tar.gz file::
-
-	rm rupayaqt-linux-64bit.tar.gz
-	
-3. Start the Hot wallet::
+2. Start the Hot wallet::
 
 	rupayad -daemon
 
-4. Generate the MasterNode private key (aka GenKey)::
+3. Generate the MasterNode private key (aka GenKey)::
 
 	rupaya-cli masternode genkey
 
-5. Copy and save the MasterNode private key (GenKey) from the previous command to be used later in the process:
+4. Copy and save the MasterNode private key (GenKey) from the previous command to be used later in the process:
 
-6. Stop the Hot wallet with the **rupaya-cli stop** command::
+5. Stop the Hot wallet with the **rupaya-cli stop** command::
 
 	rupaya-cli stop
 	
-7. Copy the rupaya.conf template, paste it into a text editor, and update the variables manually::
+6. Copy the rupaya.conf template, paste it into a text editor, and update the variables manually::
 	
 	rpcuser=rupayarpc 
 	rpcpassword=<alphanumeric_rpc_password> 
@@ -135,15 +133,15 @@ Download and Configure the Rupaya Hot wallet
 	masternodeaddr=<public_mn_ip_address_here> 
 	masternodeprivkey=<your_masternode_genkey_output> 
 	
-8. Edit the MasterNode Hot wallet configuration file **~/.rupayacore/rupaya.conf**::
+7. Edit the MasterNode Hot wallet configuration file **~/.rupayacore/rupaya.conf**::
 
 	nano ~/.rupayacore/rupaya.conf
 
-9. Paste the updated template into the **rupaya.conf** configuration file on the Linux VPS.
+8. Paste the updated template into the **rupaya.conf** configuration file on the Linux VPS.
 
-10. Save and exit the file by typing **CTRL+X** and hit **Y** + **ENTER** to save your changes.
+9. Save and exit the file by typing **CTRL+X** and hit **Y** + **ENTER** to save your changes.
 
-11. Restart the Hot wallet with the **rupayad -daemon** command::
+10. Restart the Hot wallet with the **rupayad -daemon** command::
 
 	rupayad -daemon
 	

@@ -16,7 +16,7 @@ Order and setup a Linux VPS
 	
 .. _identifyvps_vpsandhotwallet:
 
-1. Identify a VPS provider and order a Linux Ubuntu 16.04 server.  It's important not to run the VPS at home because of the risk of network instability that could cause loss of connectivity to the server.  A VPS that meets the following requirements should cost around $5 per month.
+1. Identify a VPS provider and order a Linux Ubuntu 16.04 or 18.04 x64 server.  It's important not to run the VPS at home because of the risk of network instability that could cause loss of connectivity to the server.  A VPS that meets the following requirements should cost around $5 per month.
 
 	**Recommended VPS Providers:**
 +---------------------------------------------------------+
@@ -140,16 +140,20 @@ Download and Configure the Rupaya Hot wallet
 
 1. Install the Rupaya Hot wallet on the VPS.  Download and unpack the Rupaya wallet binaries by running the following commands **one at a time**::
 
-	wget https://github.com/rupaya-project/rupx/releases/download/v5.0.25/rupayaqt-linux-64bit.tar.gz
+	wget https://github.com/rupaya-project/rupx/releases/download/v5.0.33/rupaya-5.0.33-x86_64-linux-gnu.tar.gz
 	sudo tar xvzf rupayaqt-linux-64bit.tar.gz -C /usr/local/bin/
 	
 .. _startservice_vpsandhotwallet:
 	
-2. Delete the rupayaqt-linux-64bit.tar.gz file::
+2. Delete the unneccessary file::
 
-	rm rupayaqt-linux-64bit.tar.gz
+	rm rupaya-5.0.33-x86_64-linux-gnu.tar.gz
+
+3. Move the rupayad and rupaya-cli files to the /usr/local/bin/ directory::
+
+	sudo mv rupayad rupaya-cli /usr/local/bin/
 	
-3. Start the Hot wallet service.  When the service starts, it will create the initial data directory **~/.rupayacore/**::
+4. Start the Hot wallet service.  When the service starts, it will create the initial data directory **~/.rupayacore/**::
 
 	rupayad -daemon
 	

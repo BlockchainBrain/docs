@@ -52,10 +52,16 @@ This section is intended for MasterNode users that want to configure automatic l
 	
 * Save and close the file by hitting **Ctrl-X**, and then type **Y** to confirm that you want to save it, and then hit **ENTER** to confirm the file name.
 
-5. Run the following command to initialize logrotate::
+5. Run the following command to initialize logrotate.
+
+* Use this template if you are running the wallet with the user **rupxmn**::
 
 	logrotate /etc/logrotate.d/rupaya --state /home/rupxmn/logrotate-state --verbose
 
+* Use this template if you are running the wallet with the user **root**::
+
+	logrotate /etc/logrotate.d/rupaya --state /root/logrotate-state --verbose
+	
 6. Run the following command to open and edit the **crontab** file::
 
 	crontab -e

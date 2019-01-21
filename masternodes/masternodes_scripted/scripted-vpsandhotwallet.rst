@@ -42,7 +42,7 @@ Order and setup a Linux VPS
 	wget -N https://raw.githubusercontent.com/rupaya-project/rupxscript/master/rupx_install.sh
 	bash rupx_install.sh
 
-5. Save the output from the script somewhere safe, as you will need this information again later in the setup.  The **MASTERNODE PRIVATEKEY** will be used in the masternode.conf file in your Cold Wallet.  The output should look something like this::
+5. Save the output from the script somewhere safe, as you will need this information again later in the setup.  The **MASTERNODE PRIVATEKEY** (aka. GenKey) will be used in the masternode.conf file in your Cold Wallet.  The output should look something like this::
 
 	Rupaya Masternode is up and running listening on port 9050.
 	Configuration file is: /root/.rupayacore/rupaya.conf

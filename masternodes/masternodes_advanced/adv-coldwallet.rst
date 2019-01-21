@@ -22,17 +22,18 @@ Install the Rupaya Cold Wallet
 
 2. Be sure that your existing wallet.dat and private keys are backed up from the old wallet.  We strongly recommend backing up your wallet.dat and private keys prior to starting this process.
 
-3. Rename the old Rupaya directory to something like **rupaya4**. This will prevent the new wallet install from conflicting with any of the existing data.  This is only required if the computer contains the old Rupaya wallet:
+3. Close the Rupaya wallet.
+
+4. Double click the Rupaya file to open and install the new wallet.
+
+	* When prompted, select **Use the default data directory** and click **OK**, unless you previously installed the wallet in a different location, such as the **rupayacore** folder.
 	+------------------------------------------------+
 	|* Mac: ~/Library/Application Support/RupayaCore |
 	|*     or ~/Library/Application Support/Rupaya   |
 	|* Windows: ~/AppData/Roaming/RupayaCore         |
 	|*       or ~/AppData/Roaming/Rupaya             |
-	+------------------------------------------------+
-	
-4. Unzip the wallet files and move the Rupaya-cli and Rupaya-qt files onto the Desktop or Application folder.  
-
-5.Double click the Rupaya-qt file to open and install the new wallet.
+	+------------------------------------------------|
+	* The new wallet should now open and begin to synchronize with the network
 
 Create a MN1 Wallet Address and Send it the 20000 Collateral Coins
 ------------------------------------------------------------------

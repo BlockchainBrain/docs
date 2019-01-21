@@ -39,7 +39,7 @@ Install the Rupaya Cold Wallet
 4.Double click the Rupaya-qt file to open and install the new wallet.
 
 	* Accept any pop ups asking to confirm if you want to continue with the installation
-	* When prompted, select **Use the default data directory** and click **OK**
+	* When prompted, select **Use the default data directory** and click **OK**, unless you previously installed the wallet in a different location, such as the **rupayacore** folder.
 	+------------------------------------------------+
 	|* Mac: ~/Library/Application Support/RupayaCore |
 	|*     or ~/Library/Application Support/Rupaya   |

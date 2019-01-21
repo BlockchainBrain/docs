@@ -145,8 +145,8 @@ Download and Configure the Rupaya Hot wallet
 
 	rupayad -daemon
 	
-Downloading the Bootstrap manually from a Linux VPS
----------------------------------------------------
+Downloading the Bootstrap manually from the Linux VPS
+-----------------------------------------------------
 
 This section is intended for those that want to manually install the bootstrap on a Linux VPS.  
 	

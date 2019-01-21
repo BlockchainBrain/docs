@@ -17,7 +17,7 @@ Install the Rupaya Core Wallet
 
 	For more instructions, watch this Video_ from a fellow Rupayan, David Coen, on how to export your private keys:
 
-3. Close the Rupaya wallet.
+3. Close the Rupaya wallet, if you already have one installed and running.
 
 4. Double click the Rupaya file to open and install the new wallet.
 

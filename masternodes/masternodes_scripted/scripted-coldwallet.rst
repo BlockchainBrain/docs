@@ -1,4 +1,5 @@
 .. _scripted-coldwallet:
+.. _Video: https://www.youtube.com/watch?v=0TU044CYfl4/
 
 =================
 Cold Wallet Setup

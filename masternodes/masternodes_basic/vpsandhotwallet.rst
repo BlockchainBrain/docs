@@ -166,9 +166,9 @@ Download and Configure the Rupaya Hot wallet
 .. _savegenkey_vpsandhotwallet:
 
 5. Copy and save the MasterNode private key (GenKey) from the previous command to be used later in the process.  The value returned should look similar to the below example:
-
-	* 87LBTcfgkepEddWNFrJcut76rFp9wQG6rgbqPhqHWGvy13A9hJK
-
+	+----------------------------------------------------+
+	|87LBTcfgkepEddWNFrJcut76rFp9wQG6rgbqPhqHWGvy13A9hJK |
+	+----------------------------------------------------+
 .. _stophotwallet_vpsandhotwallet:
 
 6. Stop the Hot wallet with the **rupaya-cli stop** command::

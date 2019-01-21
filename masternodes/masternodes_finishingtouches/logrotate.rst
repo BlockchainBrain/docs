@@ -68,10 +68,16 @@ This section is intended for MasterNode users that want to configure automatic l
 
 * If prompted, type in the number **2** and hit **ENTER** to select Nano as your text editor
 	
-7. Copy the following text and paste it on a new line at the bottom of the **crontab** file::
+7. Copy the following text and paste it on a new line at the bottom of the **crontab** file.
+
+* Use this template if you are running the wallet with the user **rupxmn**::
 
 	0 1 * * * /usr/sbin/logrotate /etc/logrotate.d/rupaya --state /home/rupxmn/logrotate-state
 
+* Use this template if you are running the wallet with the user **root**::
+
+	0 1 * * * /usr/sbin/logrotate /etc/logrotate.d/rupaya --state /root/logrotate-state
+	
 * Save and close the file by hitting **Ctrl-X**, and then type **Y** to confirm that you want to save it, and then hit **ENTER** to confirm the file name.
 * This above line added to the **crontab** file will configure the Linux VPS to initialize logrotate when the Linux VPS is rebooted.
 

@@ -77,6 +77,8 @@ Verify the Hot wallet is synchronizing with the blockchain
 	
 	rupaya-cli getinfo
 	
+* NOTE: It may take a few minutes for connections to bgin to establish.  Don't be alarmed if the initial output shows **"blocks": -1**
+	
 2. Run the **rupaya-cli getblockcount** command every few mins until you see the blocks increasing::
 	
 	rupaya-cli getblockcount

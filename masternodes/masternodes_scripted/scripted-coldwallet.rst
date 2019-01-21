@@ -47,6 +47,8 @@ Create a MN1 Wallet Address and Send it the 20000 Collateral Coins
 
 2. Send **EXACTLY 20000 RUPX** coins to the MN1 address. Double check you've got the correct address before transferring the funds.
 
+	* After sending, you can verify the balance in the Transactions tab. This can take **a few minutes** to be confirmed by the network.
+
 .. warning::	If you are sending from an exchange, make sure you account for the withdrawal fee so that you get EXACTLY EXACTLY EXACTLY 20000 RUPX in the new wallet address. This is a common error that will cause the next step to not give you the transaction id that is needed. For example, to withdraw from `Stocks.Exchange` the correct ammount for a MasterNode, you need to specify the ammount of **20000.001** to account for the fee.
 
 Output your MN TXhash and Outputidx and update the MasterNode configuration file

@@ -64,16 +64,12 @@ This section is intended for those that want to install the bootstrap on a Linux
 	
 1. Login to the Linux VPS as the user that will be running the wallet.
 
-2. Close the Rupaya wallet::
-
-	rupaya-cli stop
-
-3. Run the following commands, **one at a time**, to download and run the bash script::
+2. Run the following commands, **one at a time**, to download and run the bash script::
 	
 	wget https://raw.githubusercontent.com/BlockchainBrain/Rupaya_Bootstrap/master/root-bootstrap.sh
 	bash root-bootstrap.sh
 
-4. Verify that the wallet is running and that the block count is above 177000::
+3. Verify that the wallet is running and that the block count is above 177000::
 
 	rupaya-cli getinfo
 

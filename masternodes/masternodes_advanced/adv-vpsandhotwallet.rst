@@ -153,16 +153,12 @@ This section is intended for those that want to install the bootstrap on a Linux
 	
 1. Login to the Linux VPS as the user that will be running the wallet.
 
-2. Close the Rupaya wallet::
-
-	rupaya-cli stop
-
-3A. For those running the wallet as the user **rupxmn**, run the following commands, **one at a time**, to download and run the bash script::
+2A. For those running the wallet as the user **rupxmn**, run the following commands, **one at a time**, to download and run the bash script::
 
 	wget https://raw.githubusercontent.com/BlockchainBrain/Rupaya_Bootstrap/master/rupxmn-bootstrap.sh
 	sudo bash rupxmn-bootstrap.sh
 
-3B. For those running the wallet as the user **root**, run the following commands, **one at a time**, to download the bash script::
+2B. For those running the wallet as the user **root**, run the following commands, **one at a time**, to download the bash script::
 	
 	wget https://raw.githubusercontent.com/BlockchainBrain/Rupaya_Bootstrap/master/root-bootstrap.sh
 	bash root-bootstrap.sh

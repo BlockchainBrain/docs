@@ -10,9 +10,12 @@ Verify the MasterNode Hot Wallet Started Successfully
 	
 	cat ~/.rupayacore/debug.log | grep HotCold
 
-* If the MasterNode started correctly then you will receive the following output: +-----------------------------------------------------------------------------------------------------------+
-|**"CActiveFundamentalnode::EnableHotColdFundamentalNode() - Enabled! You may shut down the cold daemon."** |
-+-----------------------------------------------------------------------------------------------------------+
+* If the MasterNode started correctly then you will receive the following output: 
+
++-------------------------------------------------------------------------------------------------------+
+| CActiveFundamentalnode::EnableHotColdFundamentalNode() - Enabled! You may shut down the cold daemon.  |
++-------------------------------------------------------------------------------------------------------+
+
 * Output from this command will only show up if your MasterNode started successfully.  If you do not receive the expected output, then your MasterNode did not start successfully. 
 * The most common cause of this issue is attempting to start the MasterNode before the Hot wallet is fully synchronized.  Wait a couple of hours and then try to start it from the Cold wallet again.
 

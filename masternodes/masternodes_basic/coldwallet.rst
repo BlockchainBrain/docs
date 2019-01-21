@@ -77,10 +77,10 @@ Output your MN TXhash and Outputidx and update the MasterNode configuration file
 	
 * You should see an output that looks like this in the Debug console:
    
-	+---------------------------------------------------------------------------------+
-	|'"txhash" : "c19972e47d2a77d3ff23c2dbd8b2b204f9a64a46fed0608ce57cf76ba9216487",' |
-	|'"outputidx" : 1'                                                                |
-	+---------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+| txhash" : "c19972e47d2a77d3ff23c2dbd8b2b204f9a64a46fed0608ce57cf76ba9216487",' |
+| outputidx" : 1'                                                                |
++---------------------------------------------------------------------------------+
 	
 **NOTE: If you do not get output resembling the above example then you likely do not have EXACTLY 20000 RUPX in the MN1 wallet address.  You will need to resolve this issue and ensure that ONLY and EXACTLY 20000 RUPX is in the MN1 address and that it is in a single input.**
 
@@ -99,7 +99,9 @@ Output your MN TXhash and Outputidx and update the MasterNode configuration file
 	* These are the default directories for Rupaya:
 	+------------------------------------------------+
 	|* Mac: ~/Library/Application Support/RupayaCore |
+	|*     or ~/Library/Application Support/Rupaya   |
 	|* Windows: ~/AppData/Roaming/RupayaCore         |
+	|*       or ~/AppData/Roaming/Rupaya             |
 	+------------------------------------------------+
 
 5. Copy the following template and paste it into the **masternode.conf** file, on a new line::

@@ -55,7 +55,7 @@ This section is intended for those that want to install the bootstrap on a Linux
 
 	rupaya-cli getinfo
 
-Download the Bootstrap manually from a Linux VPS
+Download the Bootstrap Manually from a Linux VPS
 ------------------------------------------------
 
 This section is intended for those that want to manually install the bootstrap on a Linux VPS.  YOU DO NOT NEED TO REPEAT THIS STEP IF YOU ALREADY INSTALLED THE BOOTSTRAP USING THE BASH SCRIPT.  

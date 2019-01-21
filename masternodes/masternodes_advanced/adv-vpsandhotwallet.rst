@@ -168,10 +168,10 @@ This section is intended for those that want to install the bootstrap on a Linux
 	rupaya-cli getinfo
 
 	
-Download the Bootstrap manually from the Linux VPS
+Download the Bootstrap Manually from the Linux VPS
 --------------------------------------------------
 
-This section is intended for those that want to manually install the bootstrap on a Linux VPS.  
+This section is intended for those that want to manually install the bootstrap on a Linux VPS.  YOU DO NOT NEED TO REPEAT THIS STEP IF YOU ALREADY INSTALLED THE BOOTSTRAP USING THE BASH SCRIPT.  
 
 1. Login to the Linux VPS as the user that will be running the wallet.
 

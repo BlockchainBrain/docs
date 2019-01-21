@@ -11,7 +11,7 @@ Welcome to the Rupaya wallet instructions page.  This section provides details o
 
    walletinstall.rst
    bootstrap.rst
-   consolidatingcoins.rst
+   sendingcoins.rst
    unlockmncoins.rst
    upgradeexistingmn.rst
    updateexistingcoldwallet.rst

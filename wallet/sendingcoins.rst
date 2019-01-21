@@ -1,17 +1,17 @@
-.. _consolidatingcoins:
+.. _sendingcoins:
 
-================================================
-Consolidating Coins Into A Single Wallet Address
-================================================
+==============================
+Sending Coins - RUPX and zRUPX
+==============================
 
-These instructions are intended for those that are consolidating all of your RUPX and zRUPX into a single wallet address.  This process is most useful for those that are staking coins in the wallet.
+These instructions are intended for those that want instructions on how to send RUPX and zRUPX.  This process is useful for those that want to convert your zRUPX back into RUPX and for consolidating coins into a single wallet input for better staking results.
 
-Consolidating RUPX
-==================
+Sending RUPX
+============
 
-1. Locate and copy the existing Rupaya wallet address that you are consolidating all of your coins into.
+1. Locate and copy the Rupaya wallet address that you are sending coins to.
 
-2. Open your current Rupaya wallet(s) that currently contains RUPX.
+2. Open the Rupaya wallet(s) that currently contains RUPX.
 
 3. From the side wallet bar, click **Send**.
 
@@ -43,16 +43,16 @@ Consolidating RUPX
 	* Click **Yes** when prompted to confirm that you are sure you want to send.
 
 
-Consolidating zRUPX
-===================
+Sending zRUPX
+=============
 
-1. Locate and copy the existing Rupaya wallet address that you are consolidating all of your coins into.
+1. Locate and copy the Rupaya wallet address that you are sending coins to.
 
 2. Open your current Rupaya wallet(s) that currently contains zRUPX.
 
 3. From the side wallet bar, click **Privacy**.
 
-4. In the **Pay To:** field, right click and select **Paste** to paste in the wallet address that you will be consolidating all of your RUPX and zRUPX coins into.
+4. In the **Pay To:** field, right click and select **Paste** to paste in the wallet address that you will be sending zRUPX coins into.
 
 5. Click **zRUPX Control**.
 

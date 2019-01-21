@@ -172,8 +172,6 @@ Download the Bootstrap manually from the Linux VPS
 --------------------------------------------------
 
 This section is intended for those that want to manually install the bootstrap on a Linux VPS.  
-	
-.. warning:: Only do this on a Linux VPS Hot Wallet that does not contain RUPX or zRUPX, or you will lose your coins.
 
 1. Login to the Linux VPS as the user that will be running the wallet.
 

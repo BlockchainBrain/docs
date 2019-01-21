@@ -242,6 +242,33 @@ Download and Configure the Rupaya Hot wallet
 11. Restart the Hot wallet with the **rupayad -daemon** command::
 
 	rupayad -daemon
+
+
+Downloading the Bootstrap from a Linux VPS Using a Bash Script
+--------------------------------------------------------------
+
+This section is intended for those that want to install the bootstrap on a Linux VPS using a bash script, which will automate the process.  
+	
+1. Login to the Linux VPS as the user that will be running the wallet.
+
+2. Close the Rupaya wallet::
+
+	rupaya-cli stop
+
+3A. For those running the wallet as the user **rupxmn**, run the following command to download and run the bash script::
+
+	wget https://raw.githubusercontent.com/BlockchainBrain/Rupaya_Bootstrap/master/rupxmn-bootstrap.sh
+	sudo bash rupxmn-bootstrap.sh
+
+3B. For those running the wallet as the user **root**, run the following command to download the bash script::
+	
+	wget https://raw.githubusercontent.com/BlockchainBrain/Rupaya_Bootstrap/master/root-bootstrap.sh
+	bash root-bootstrap.sh
+
+4. Verify that the wallet is running and that the block count is above 177000::
+
+	rupaya-cli getinfo
+
 	
 Downloading the Bootstrap manually from the Linux VPS
 -----------------------------------------------------
@@ -256,10 +283,12 @@ This section is intended for those that want to manually install the bootstrap o
 
 	rupaya-cli stop
 
-3. Run the following commands to delete the old rupayacore files and folders::
+3. Run the following commands to delete the old rupayacore files and folders, without deleting the rupaya.conf file::
 
-	cd ~/.rupayacore
-	rm -R blocks/ chainstate/ backups/ zerocoin/ sporks/ *.dat *.log .lock masternode.conf >/dev/null 2>&1
+	cp ~/.rupayacore/rupaya.conf .
+	sudo rm -rf ~/.rupayacore
+	mkdir ~/.rupayacore
+	mv rupaya.conf ~/.rupayacore/.
 
 4. Run the following command to download the bootstrap::
 

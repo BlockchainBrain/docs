@@ -35,7 +35,7 @@ This section is intended for those that want to install the bootstrap on a PC or
 Downloading the Bootstrap from a Linux VPS Using a Bash Script
 --------------------------------------------------------------
 
-This section is intended for those that want to install the bootstrap on a Linux VPS using a bash script, which will automate the process.  This version of the bash script will only work with users that installed the Hot Wallet with the user named **rupxmn**.  If you used **root** then you will need to install the bootstrap manually.
+This section is intended for those that want to install the bootstrap on a Linux VPS using a bash script, which will automate the process.
 
 .. warning:: Only do this on a Linux VPS Hot Wallet that does not contain RUPX or zRUPX, or you will lose your coins.  
 	
@@ -45,23 +45,24 @@ This section is intended for those that want to install the bootstrap on a Linux
 
 	rupaya-cli stop
 
-2. Run the following command to download the bash script::
+3A. For those running the wallet as the user **rupxmn**, run the following command to download and run the bash script::
 
-	wget https://cdn.discordapp.com/attachments/533345435130134578/535190635074945024/bootstrap.sh
+	wget https://raw.githubusercontent.com/BlockchainBrain/Rupaya_Bootstrap/master/rupxmn-bootstrap.sh
+	sudo bash rupxmn-bootstrap.sh
 
-3. Run the following command to run the bash script, which will automatically download and install the bootstrap folders and files::
+3B. For those running the wallet as the user **root**, run the following command to download the bash script::
+	
+	wget https://raw.githubusercontent.com/BlockchainBrain/Rupaya_Bootstrap/master/root-bootstrap.sh
+	bash root-bootstrap.sh
 
-	bootstrap.sh
+4. Verify that the wallet is running and that the block count is above 177000::
 
-4. Restart the wallet::
-
-	rupayad -daemon
-
+	rupaya-cli getinfo
 
 Downloading the Bootstrap manually from a Linux VPS
 ---------------------------------------------------
 
-This section is intended for those that want to manually install the bootstrap on a Linux VPS.  
+This section is intended for those that want to manually install the bootstrap on a Linux VPS.  YOU DO NOT NEED TO REPEAT THIS STEP IF YOU ALREADY INSTALLED THE BOOTSTRAP USING THE BASH SCRIPT.  
 	
 .. warning:: Only do this on a Linux VPS Hot Wallet that does not contain RUPX or zRUPX, or you will lose your coins.
 
@@ -73,9 +74,10 @@ This section is intended for those that want to manually install the bootstrap o
 
 3. Run the following commands to delete the old rupayacore files and folders::
 
-	cd ~/.rupayacore
-	rm -R blocks/ chainstate/ backups/ zerocoin/ sporks/ *.dat *.log .lock masternode.conf >/dev/null 2>&1
-
+	cp ~/.rupayacore/rupaya.conf .
+	sudo rm -rf ~/.rupayacore
+	mkdir ~/.rupayacore
+	mv rupaya.conf ~/.rupayacore/.
 
 4. Run the following command to download the bootstrap::
 

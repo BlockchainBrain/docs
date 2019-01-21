@@ -15,7 +15,7 @@ Order and setup a Linux VPS
 	
 .. _identifyvps_vpsandhotwallet:
 
-1. Identify a VPS provider and order a Linux Ubuntu 16.04 or 18.04 x64 server.
+1. Identify a VPS provider and order a Linux Ubuntu 16.04 x64 server. **Ubuntu v18.04 is NOT SUPPORTED.**
 
 	**Recommended VPS Providers:**
 +---------------------------------------------------------+
@@ -27,7 +27,7 @@ Order and setup a Linux VPS
 
 	**VPS Minimum Requirements:**
 +-----------------------------------------+
-|* Linux - Ubuntu 16.04/18.04 - 64 Bit OS |
+|* Linux - Ubuntu 16.04 - 64 Bit OS |
 |* 1GB of RAM                             |
 |* 20GB of disk space                     |
 |* Dedicated Public IP Address            |

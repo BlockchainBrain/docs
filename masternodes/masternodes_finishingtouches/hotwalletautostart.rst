@@ -44,7 +44,7 @@ This section is intended for MasterNode users that want to configure the Linux V
 
 9. Verify that your MasterNode is still showing up on the MasterNode tracker website.  The site is refreshed every 5 minutes so check it a few times just to be sure.
 
-* http://rupx5.mn.zone/
+* https://find.rupx.io/masternodes
 
 **If the MasterNode Hot wallet automatically restarts after a reboot then you have successfully completed this section.  CONGRATULATIONS!!  The setup of your MasterNode is now fully complete!**  
 

@@ -169,7 +169,7 @@ This section is intended for those that want to manually install the bootstrap o
 
 5. Install Unzip::
 
-	apt-get install unzip -y
+	sudo apt-get install unzip -y
 
 6. Unzip the bootstrap folders and files into the .rupayacore folder:: 
 

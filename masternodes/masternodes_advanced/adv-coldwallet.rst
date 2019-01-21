@@ -51,7 +51,7 @@ Output your MN TXhash and Outputidx and update the MasterNode configuration file
 
 1. Open the Debug console.
 
-2. Run the **masternode outputs** command to retrieve the transaction ID of the new MN1 wallet that contains the 20000 RUPX collateral::
+2. Run the **masternode outputs** command to retrieve the transaction ID (aka txhash) of the new MN1 wallet that contains the 20000 RUPX collateral::
 
 	masternode outputs
 

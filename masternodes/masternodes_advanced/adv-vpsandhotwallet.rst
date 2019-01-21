@@ -44,7 +44,7 @@ Order and setup a Linux VPS
 	apt-get update -y
 	apt-get upgrade -y
 
-5. Install fail2ban and create modifiable configs for fail2ban and its jail settings.   Run these commands **one at a time** to install basic ssh protection with fail2ban::
+5. Install fail2ban and create modifiable configs for fail2ban and its jail settings::
 
 	apt-get install fail2ban -y
 	cp /etc/fail2ban/fail2ban.conf /etc/fail2ban/fail2ban.local
@@ -130,7 +130,8 @@ Download and Configure the Rupaya Hot wallet
 	daemon=1
 	masternode=1
 	externalip=<public_mn_ip_address_here>:9050 
-	masternodeaddr=<public_mn_ip_address_here> 
+	masternodeaddr=<public_mn_ip_address_here>
+	bind=<public_mn_ip_address_here>
 	masternodeprivkey=<your_masternode_genkey_output> 
 	
 7. Edit the MasterNode Hot wallet configuration file **~/.rupayacore/rupaya.conf**::

@@ -25,15 +25,19 @@ Below is the template for the Hot wallet **rupaya.conf** file.  Copy and paste t
 	daemon=1
 	masternode=1
 	externalip=<public_mn_ip_address_here>:9050 
-	masternodeaddr=<public_mn_ip_address_here> 
+	masternodeaddr=<public_mn_ip_address_here>
+	bind=<public_mn_ip_address_here>
 	masternodeprivkey=<your_masternode_genkey_output> 
 	
 * Update the variable after **rpcpassword=** with a 40 character RPC rpcpassword.
 * You will need to generate the rpcpassword yourself.
 * Use the **ifconfig** command, on the Linux VPS, to find out your Linux VPS IP address.  It is normally the address listed after the **eth0** interface after the word **inet addr:** 
+* Save your Linux VPS IP address as we are going to use this IP again in the Cold wallet setup
 * Update the variable after **externalip=** with your Linux VPS IP.  Ensure that there are no spaces between the IP address and the port **:9050**
-* Update the variable after **masternodeaddr=** with your Linux VPS IP 
-* Update the variable after **masternodeprivkey=** with your MasterNode private key (GenKey) 
+* Update the variable after **masternodeaddr=** with your Linux VPS IP
+* Update the variable after **bind=** with your Linux VPS IP
+* Update the variable after **masternodeprivkey=** with your MasterNode private key (GenKey)
+* Once all of the fields have been updated in the text editor, copy the template into your clipboard to be used in the next steps. 
 
 **EXAMPLE**
 

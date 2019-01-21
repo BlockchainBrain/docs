@@ -40,10 +40,10 @@ Order and setup a Linux VPS
 	
 .. _loginviassh_vpsandhotwallet:
 	
-3. Login to the VPS, via SSH, as the **root** user.
+3. Login to the Linux VPS, via SSH, as the **root** user.
 
 	* If you need assistance using SSH then please refer to the :ref:`VPS: Getting Started with an SSH client and SSH Keys<vps_usingssh>` section of the guide for more information on how to use SSH to connect to the Linux VPS.
-	* If you are running a VPS from Digital Ocean, Vultr, or a similar provider, then you need to use an SSH client, such as Putty_, if you want to have copy and paste functionality. Otherwise you will have to type all of the following commands out manually!
+	* When connecting to the Linux VPS, you will need an SSH client, such as Putty_, if you want to have copy and paste functionality. Otherwise you will have to type all of the following commands out manually!
 
 .. _installlinuxupdates_vpsandhotwallet:
 

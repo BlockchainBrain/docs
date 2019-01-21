@@ -170,6 +170,7 @@ This section is intended for those that want to install the bootstrap on a Linux
 
 	rupaya-cli getinfo
 
+	* NOTE: It may take a few minutes for connections to bgin to establish.  Don't be alarmed if the initial output shows **"blocks": -1**
 	
 Download the Bootstrap Manually from the Linux VPS
 --------------------------------------------------

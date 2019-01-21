@@ -35,12 +35,10 @@ This section is intended for MasterNode users that want to configure the Linux V
 
 	ps -ef |grep rupayad
 	
-* You should get two lines of output that look something like this
+* You should get two lines of output that look something like this::
 
-+--------------------------------------------------------------------------+
-|rupxmn     988     1 96 17:32 ?        00:00:31 /usr/local/bin/rupayad    |
-|rupxmn    1122  1111  0 17:32 pts/0    00:00:00 grep --color=auto rupayad |
-+--------------------------------------------------------------------------+
+	rupxmn     988     1 96 17:32 ?        00:00:31 /usr/local/bin/rupayad
+	rupxmn    1122  1111  0 17:32 pts/0    00:00:00 grep --color=auto rupayad
 
 * If you only get one line of text with the output **grep --color=auto rupaya** then the wallet is not running and you will need to walk through the above steps again.
 

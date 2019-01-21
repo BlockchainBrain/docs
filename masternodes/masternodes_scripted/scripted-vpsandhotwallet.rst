@@ -74,44 +74,6 @@ This section is intended for those that want to install the bootstrap on a Linux
 	rupaya-cli getinfo
 
 	
-Download the Bootstrap Manually from the Linux VPS
---------------------------------------------------
-
-This section is intended for those that want to manually install the bootstrap on a Linux VPS.  YOU DO NOT NEED TO REPEAT THIS STEP IF YOU ALREADY INSTALLED THE BOOTSTRAP USING THE BASH SCRIPT.
-
-1. Login to the Linux VPS as the user that will be running the wallet.
-
-2. Close the Rupaya wallet::
-
-	rupaya-cli stop && sleep 10
-
-3. Run the following commands to delete the old rupayacore files and folders, without deleting the rupaya.conf file::
-
-	cp ~/.rupayacore/rupaya.conf .
-	sudo rm -rf ~/.rupayacore
-	mkdir ~/.rupayacore
-	mv rupaya.conf ~/.rupayacore/.
-
-4. Run the following command to download the bootstrap::
-
-	wget https://www.dropbox.com/s/hqmmf5wo6gpbq1b/rupx-bootstrap-160119.zip
-
-5. Install Unzip::
-
-	sudo apt-get install unzip -y
-
-6. Unzip the bootstrap folders and files into the .rupayacore folder:: 
-
-	unzip rupx-bootstrap-160119.zip -d ~/.rupayacore
-
-7. Restart the wallet::
-
-	rupayad -daemon
-
-8. Delete the bootstrap.zip file::
-
-	rm rupx-bootstrap-160119.zip
-
 Verify the Hot wallet is synchronizing with the blockchain
 ----------------------------------------------------------
 

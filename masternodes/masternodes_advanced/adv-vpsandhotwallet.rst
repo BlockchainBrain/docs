@@ -163,7 +163,7 @@ This section is intended for those that want to manually install the bootstrap o
 	cd ~/.rupayacore
 	rm -R blocks/ chainstate/ backups/ zerocoin/ sporks/ *.dat *.log .lock masternode.conf >/dev/null 2>&1
 
-4. Run the following command to download the bootstrap:
+4. Run the following command to download the bootstrap::
 
 	wget https://www.dropbox.com/s/hqmmf5wo6gpbq1b/rupx-bootstrap-160119.zip
 

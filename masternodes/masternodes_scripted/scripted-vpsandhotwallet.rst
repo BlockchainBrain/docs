@@ -44,16 +44,16 @@ Order and setup a Linux VPS
 
 5. Save the output from the script somewhere safe, as you will need this information again later in the setup.  The **MASTERNODE PRIVATEKEY** will be used in the masternode.conf file in your Cold Wallet.  The output should look something like this:
 
-	+--------------------------------------------------------------------------------------------------+
-	| Rupaya Masternode is up and running listening on port 9050.                                      |
-	| Configuration file is: /root/.rupayacore/rupaya.conf                                             |
-	| Start: systemctl start Rupaya.service                                                            |
-	| Stop: systemctl stop Rupaya.service                                                              |
-	| VPS_IP:PORT 157.230.178.131:9050                                                                 |
-	| MASTERNODE PRIVATEKEY is: 2rE12DuD5zdtHfW8FK2eZiYbRYbCi9eysy6rQVeZsu8PTZgStN8                    |
-	| Please check Rupaya daemon is running with the following command: systemctl status Rupaya.service|
-	| Use rupaya-cli masternode status to check your MN.                                               |
-	+--------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------+
+| Rupaya Masternode is up and running listening on port 9050.                                      |
+| Configuration file is: /root/.rupayacore/rupaya.conf                                             |
+| Start: systemctl start Rupaya.service                                                            |
+| Stop: systemctl stop Rupaya.service                                                              |
+| VPS_IP:PORT 157.230.178.131:9050                                                                 |
+| MASTERNODE PRIVATEKEY is: 2rE12DuD5zdtHfW8FK2eZiYbRYbCi9eysy6rQVeZsu8PTZgStN8                    |
+| Please check Rupaya daemon is running with the following command: systemctl status Rupaya.service|
+| Use rupaya-cli masternode status to check your MN.                                               |
++--------------------------------------------------------------------------------------------------+
 
 6. Run the following command to verify the Rupaya daemon is running and that you have active connections::
 

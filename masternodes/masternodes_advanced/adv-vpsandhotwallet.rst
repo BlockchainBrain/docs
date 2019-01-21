@@ -99,7 +99,7 @@ Download and Configure the Rupaya Hot wallet
 1. Install the Rupaya Hot wallet on the VPS by running the following commands **one at a time**::
 
 	wget https://github.com/rupaya-project/rupx/releases/download/v5.0.33/rupaya-5.0.33-x86_64-linux-gnu.tar.gz
-	tar -xvf rupaya-5.0.33-x86_64-linux-gnu.tar.gz --strip-components 2
+	sudo tar -xvf rupaya-5.0.33-x86_64-linux-gnu.tar.gz --strip-components 2
 	rm rupaya-5.0.33-x86_64-linux-gnu.tar.gz
 	sudo mv rupayad rupaya-cli /usr/local/bin/
 	

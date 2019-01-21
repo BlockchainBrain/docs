@@ -16,7 +16,7 @@ This section is intended for MasterNode users that want to configure automatic l
 
 	nano /etc/logrotate.d/rupaya
 
-* If prompted, type in the number **2** and hit **ENTER** to select Nano as your text editor
+* If prompted, select Nano as your text editor
 	
 4. Copy the following text and paste it into the file.
 

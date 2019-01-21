@@ -166,7 +166,7 @@ This section is intended for those that want to install the bootstrap on a Linux
 	wget https://raw.githubusercontent.com/BlockchainBrain/Rupaya_Bootstrap/master/root-bootstrap.sh
 	bash root-bootstrap.sh
 
-4. Verify that the wallet is running and that the block count is above 177000::
+3. Verify that the wallet is running and that the block count is above 177000::
 
 	rupaya-cli getinfo
 

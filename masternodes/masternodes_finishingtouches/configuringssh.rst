@@ -24,7 +24,9 @@ Prerequisites
 Implementation Steps
 --------------------
 
-1. Login to the Linux VPS as the **root** user.
+1. Login to the Linux VPS as the **root** user::
+
+	sudo -i
 
 2. Create a directory named **.ssh** in the **/home/rupxmn/** directory::
 

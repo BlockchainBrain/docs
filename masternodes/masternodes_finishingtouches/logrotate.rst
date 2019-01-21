@@ -18,8 +18,10 @@ This section is intended for MasterNode users that want to configure automatic l
 
 * If prompted, type in the number **2** and hit **ENTER** to select Nano as your text editor
 	
-4. Copy the following text and paste it into the file::
+4. Copy the following text and paste it into the file.
 
+	* Use this template if you are running the wallet with the user **rupxmn**::
+	
 	/home/rupxmn/.rupayacore/*.log {
 		su root adm
 		size 3M
@@ -33,6 +35,21 @@ This section is intended for MasterNode users that want to configure automatic l
 		create
 	}
 
+	* Use this template if you are running the wallet with the user **root**::
+	
+	/root/.rupayacore/*.log {
+		su root adm
+		size 3M
+		daily
+		missingok
+		rotate 30
+		copytruncate
+		dateext
+		compress
+		notifempty
+		create
+	}
+	
 * Save and close the file by hitting **Ctrl-X**, and then type **Y** to confirm that you want to save it, and then hit **ENTER** to confirm the file name.
 
 5. Run the following command to initialize logrotate::
